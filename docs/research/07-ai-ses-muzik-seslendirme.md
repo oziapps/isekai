@@ -30,12 +30,13 @@
   - **Voice Design:** Metinle tarif ederek sıfırdan özgün ses yaratma
   - **Voice Replication:** Klonlama. Sahibinin sesli rıza cümlesini okuması zorunlu, yapay zekâ sesleri referans olarak kabul edilmiyor.
   - Çok konuşmacılı diyalog
+  - **(düzeltildi 24.09.2026) Fiyat ve tarih [O]:** Modeller 23.09.2026'da çıktı. İkincil kaynaklar birbiriyle tutarlı: Flash TTS için 1M metin token'ı 0,50 $, 1M ses token'ı 9 $ (dakikası ≈0,0135 $). Flash-Lite TTS için 1M ses token'ı 6 $ (dakikası ≈0,009 $). Bu fiyatlar 31.12.2026'ya kadar geçerli bir tanıtım fiyatı. 1 Ocak 2027'den itibaren ses fiyatları iki katına çıkıyor (18 $ ve 12 $). Gemini API fiyat sayfasında ücretsiz katman sütunu var, ama sabit bir TTS kotası yayımlanmamış. ai.google.dev engelli olduğu için bu rakamlar birincil kaynaktan okunamadı.
 
   Özgün anime karakterleri için "tarif et, klonlama" yaklaşımı hem etik hem hukuken temiz.
 - **ElevenLabs'in yerel MCP sunucusu kullanımdan kaldırıldı (deprecated).** Yerini OAuth'lu **uzak (hosted) MCP** aldı: `https://api.elevenlabs.io/v1/mcp` [10]. Resmî `elevenlabs/skills` paketi TTS, SFX, müzik, ses değiştirme ve dublaj becerilerini içeriyor [12].
   - Ücretsiz katman: ayda **10 bin kredi** [10].
   - Modeller: `eleven_v3` 70+ dil, `multilingual_v2` 29 dil, `flash_v2_5` 32 dil ve %50 daha ucuz [11].
-  - Ücretsiz katmanın ticari kullanım izni ve plan fiyatları doğrulanamadı [D].
+  - Ücretsiz katmanın ticari kullanım izni ve plan fiyatları doğrulanamadı [D]. **(düzeltildi 24.09.2026)** ElevenLabs'in kendi yardım sayfası ve fiyat sayfası özetine göre ücretsiz plan **ticari kullanıma kapalı**. Yayımlanan içerikte başlıkta "elevenlabs.io" ya da "11.ai" yazılarak atıf yapılması zorunlu. **Starter: 6 $/ay, 30 bin kredi, ticari lisans dahil.** Tüm ücretli planlar ticari lisans içeriyor, Beta hizmetleri hariç.
 - **Açık modellerde lisans tuzakları var. Ticari kullanım YASAK olanlar:**
   - F5-TTS ağırlıkları (CC-BY-NC) [25]
   - XTTS-v2 (CPML) [26]
@@ -51,7 +52,7 @@
   - **Qwen3-TTS** (Apache-2.0; JA/EN, Voice Design) [35]
   - **Kokoro-82M** (Apache) [18]
   - **GPT-SoVITS** (MIT; JA/EN/KO/ZH) [23]
-  - **IndexTTS-2.5** (bilibili lisansı: 100 milyon aylık kullanıcı veya 1 milyar RMB ciro altında ücretsiz ticari) [21]
+  - **IndexTTS-2.5** (bilibili lisansı: 100 milyon aylık kullanıcı veya 1 milyar RMB ciro altında ücretsiz ticari) [21]. **(düzeltildi 24.09.2026) Koşullu:** Lisans model çıktılarını da "Derivative Work" sayıyor. Kullanılan her kopyada telif bildirimlerinin ve lisans metninin tutulmasını, alt alıcılara da uygun sözleşme şartları uygulanmasını istiyor. Uygulanacak hukuk ÇHC, uyuşmazlıklar Şanghay tahkiminde çözülüyor. Lisans metni modeli "bilibili indextts2" olarak tanımlıyor. 2.5 ağırlıklarının HF'deki lisansı okunamadı.
   - **AivisSpeech + ACML lisanslı modeller** (Japonca anime tınısı; ticari serbest, kredi isteğe bağlı) [33]
 - **Microsoft VibeVoice-TTS kodu kaldırıldı.** Microsoft Eylül 2025'te kötüye kullanım gerekçesiyle kodu sildi. Kalan Realtime-0.5B için de "ticari kullanım önerilmez" diyor [22].
 - **Container'da (4 vCPU, GPU yok) gerçekçi yerel TTS yalnızca hafif modellerle mümkün.** Kokoro ONNX'i GitHub Releases'ten indirip çalıştırdık: 5,7 sn İngilizce sesi 2,66 sn'de üretti (**RTF 0,47**, yani gerçek zamandan ~2 kat hızlı) [T].
@@ -63,7 +64,11 @@
   - Gemini API'de **Lyria 3.5:** 3 dakikaya kadar şarkı ve `instrumental_only` parametresi
   - **Lyria RealTime:** "önizlemede, şimdilik kota sınırlı ücretsiz", 48 kHz stereo, yalnızca enstrümantal
   - Yerelde **ACE-Step 1.5** (MIT; 10 sn–10 dk; ≤6 GB VRAM'de de çalışıyor)
-- **Suno ve Udio'nun 2025–2026 durumu bu oturumda doğrulanamadı** [D]. Plak şirketi davaları ve anlaşmalardan sonra ücretsiz katmanın sahiplik ve indirme hakları değişti. Oyunun ana müziği için bu iki araç **önerilmiyor**.
+- **Suno ve Udio'nun 2025–2026 durumu bu oturumda doğrulanamadı** [D]. Plak şirketi davaları ve anlaşmalardan sonra ücretsiz katmanın sahiplik ve indirme hakları değişti. Oyunun ana müziği için bu iki araç **önerilmiyor**. **(düzeltildi 24.09.2026, ikincil kaynaklar):**
+  - Suno 3 Eylül 2026'dan beri indirme sınırı uyguluyor. Ücretsiz hesapta toplam 7 indirme var ve yalnızca kişisel, ticari olmayan kullanım için. Pro'da ayda 20, Premier'de ayda 60 indirme var. Ücretli planlarda indirilen şarkılar ticari kullanılabiliyor.
+  - Suno, 9 Eylül 2026'da WMG, BMG ve Believe lisanslı V6 modelini çıkardı. UMG ve Sony birkaç gün sonra yeni bir dava açtı.
+  - Udio, UMG anlaşmasından sonra indirmeyi kapattı. Platform "walled garden" modeline geçiyor.
+  - "Önerilmiyor" kararı güçlenerek geçerli.
 - **Uyarlanabilir (adaptive) müzik için ara katmana gerek yok.** Godot 4.3+ yerleşik `AudioStreamInteractive` (klip ve geçiş tablosu), `AudioStreamPlaylist` ve `AudioStreamSynchronized` (katmanlı stem) sınıflarını sunuyor [45]. Gerekirse Godot 4 için FMOD ve Wwise eklentileri de mevcut [46].
 - **SFX:**
   - ElevenLabs SFX v2 (0,5–30 sn, döngü desteği) [12]
@@ -105,8 +110,8 @@
 |---|---|---|---|---|---|
 | **Google Chirp 3 HD** | Ayda 1M karakter ücretsiz, sonra 30 $/1M [Y][1]. Faturalandırma açık olmalı [1]. | Ücretli bulut hizmeti. Çıktı kullanıcıya ait [D]. | 75+ dil ve varyant, 380+ ses [Y][2]. JA/TR bu oturumda tek tek doğrulanamadı [O] | GenMedia MCP: `mcp-chirp3-go` [Y][9] | **Evet** |
 | **Google Gemini-TTS** (Cloud TTS/Vertex) | Yok ("Not available"). 2.5 Flash: 0,50 $/1M metin + 10 $/1M ses token'ı. 2.5 Pro ve 3.1 Flash: 1 $ + 20 $ [Y][1] | Aynı | 75+ lokal, stil/ton/tempo doğal dille yönetiliyor [Y][2] | GenMedia MCP, `genmedia-voice-director` becerisi [Y][9] | **Evet** |
-| **Gemini API: Gemini 3.8 TTS + Voices API** | Gemini API ücretsiz katmanı ve fiyatları doğrulanamadı [D] | [D] | 30 hazır ses, Voice Design, rıza kontrollü Replication, 24 kHz mono WAV [Y][5][6] | `google-genai` SDK 2.25.0 (22.09.2026) [Y][49] | **Evet** |
-| **ElevenLabs** | Ayda 10 bin kredi [Y][10] | Ücretsiz katmanda ticari hak yok ve atıf gerekli; Starter'dan itibaren ticari [D] | v3: 70+ dil. Multilingual v2: 29 dil [Y][11]. JA/TR'nin listede olması [O] | **Hosted MCP** `api.elevenlabs.io/v1/mcp` (OAuth) ve `elevenlabs/skills` [Y][10][12] | Hayır (engelli) |
+| **Gemini API: Gemini 3.8 TTS + Voices API** | Gemini API ücretsiz katmanı ve fiyatları doğrulanamadı [D]. **(düzeltildi 24.09.2026) [O]:** Ücretsiz katman var, kotası yayımlanmamış. Flash: 0,50 $ + 9 $/1M ses token'ı. Flash-Lite: 6 $/1M ses token'ı. Bunlar 31.12.2026'ya kadar tanıtım fiyatı, sonra iki katına çıkıyor | [D] | 30 hazır ses, Voice Design, rıza kontrollü Replication, 24 kHz mono WAV [Y][5][6] | `google-genai` SDK 2.25.0 (22.09.2026) [Y][49] | **Evet** |
+| **ElevenLabs** | Ayda 10 bin kredi [Y][10] | Ücretsiz katmanda ticari hak yok ve atıf gerekli; Starter'dan itibaren ticari [D]. **(düzeltildi 24.09.2026)** Doğrulandı [O]: Starter 6 $/ay (30 bin kredi) ve ticari lisans içeriyor | v3: 70+ dil. Multilingual v2: 29 dil [Y][11]. JA/TR'nin listede olması [O] | **Hosted MCP** `api.elevenlabs.io/v1/mcp` (OAuth) ve `elevenlabs/skills` [Y][10][12] | Hayır (engelli) |
 | **Azure AI Speech** | F0 katmanı var, aylık kota fiyat sayfasında ve doğrulanamadı [Y][14]. ~0,5M karakter/ay [D] | Ücretli katmanda evet [D] | **TR:** `tr-TR-Aydın/Elif:MAI-Voice-2` (HD, 10+ duygu stili) + Emel/Ahmet. **JA:** Nanami/Masaru DragonHD dahil 12 ses [Y][14] | Resmî MCP bulunamadı | Hayır |
 | **MiniMax Speech** | [D] | [D] | [D] | **Resmî MiniMax-MCP**: `text_to_audio`, `voice_clone`, `voice_design`, `list_voices`. Host `api.minimax.io` [Y][15] | Hayır |
 | **Cartesia** | [D] | [D] | [D] | Resmî `cartesia-mcp` 0.22.3 (21.09.2026) [Y][16] | Hayır |
@@ -169,7 +174,7 @@
 | Chatterbox Turbo (350M) / **Nano** (110M) | MIT | ✅ | ❌ | ✅ | ❌ | Nano: 8 çekirdekte 3× gerçek zaman | [Y][19] |
 | **VoxCPM2** (2B, 04/2026) | Apache-2.0 (ağırlık dahil) | ✅ | ✅ | ✅ | ✅ | GGUF/llama.cpp-omni var. ~6–8 GB VRAM önerilir. CPU yavaş [O] | [Y][36] |
 | **Qwen3-TTS** (0.6B/1.7B, 01/2026) | Apache-2.0 | ✅ | ✅ | ✅ | ❌ | 0.6B CPU'da denenebilir [O] | [Y][35] |
-| **IndexTTS-2.5** (08/2026) | bilibili Model License | ✅ (100M MAU veya 1 milyar RMB altı) | ✅ | ✅ | ❌ | GPU önerilir | [Y][21] |
+| **IndexTTS-2.5** (08/2026) | bilibili Model License | ⚠️ Koşullu (100M MAU veya 1 milyar RMB altı). **(düzeltildi 24.09.2026)** Çıktılar "Derivative Work" sayılıyor: bildirim ve lisans kopyası tutulmalı, alt alıcılara şart konmalı; ÇHC hukuku geçerli | ✅ | ✅ | ❌ | GPU önerilir | [Y][21] |
 | **GPT-SoVITS** | MIT | ✅ (ama sesin sahibinin rızası şart) | ✅ | ✅ | ❌ | M4 CPU'da RTF 0,526. CPUFast çatalı var | [Y][23] |
 | **Style-Bert-VITS2** | AGPL-3.0 (kod). Modellerin lisansı ayrı (JVNV: CC BY-SA 4.0) | Model lisansına bağlı | ✅ (anime tınısı) | ~ | ❌ | Sentez CPU'da çalışıyor | [Y][32] |
 | **AivisSpeech Engine** | LGPL-3.0. Modeller ACML / ACML-NC / CC0 | ACML: ✅, kredi isteğe bağlı | ✅ | ❌ | ❌ | **CPU için ONNX Runtime**, Docker `cpu-latest` imajı | [Y][33] |
@@ -251,7 +256,7 @@ Seslendirmen sözleşmelerine bir "AI maddesi" eklenmeli:
 | MusicGen / AudioGen | [Y][40] | **CC-BY-NC** ❌ | — |
 | **Magenta RealTime** | v1: kod Apache + ağırlık **CC-BY 4.0**, "Google çıktılar üzerinde hak iddia etmez" [Y][41]. MRT2: 230M/2.4B, gerçek zamanlı çalışması için Apple Silicon gerekli. Lisansı README'de yok [D] | v1 ✅ (atıfla) | Yerel (Mac veya NVIDIA) |
 | Stable Audio Open / 2.5 | Open 1.0 Stability Community License ile yayında (1 M$ altı ücretsiz, kayıt gerekli) [Y][42]. 2.5 kurumsal odaklı ve lisanslı veriyle eğitildi [D] | Koşullu ✅ | Yerel / API |
-| **Suno / Udio** | 2024'te büyük plak şirketleri dava açtı. 2025 sonunda bazı anlaşmalar yapıldı (ör. UMG–Udio, WMG–Suno/Udio). Udio indirmeyi kısıtladı, Suno'da indirme ücretli hesaba bağlandı [D] | Suno ücretsiz planında şarkı Suno'nun, ücretli planda kullanıcının [D]. Topluluk `suno-mcp` hesap çerezleriyle çalışıyor (resmî değil, kullanım şartları riski) [Y][49] | **Önerilmiyor** |
+| **Suno / Udio** | 2024'te büyük plak şirketleri dava açtı. 2025 sonunda bazı anlaşmalar yapıldı (ör. UMG–Udio, WMG–Suno/Udio). Udio indirmeyi kısıtladı, Suno'da indirme ücretli hesaba bağlandı [D]. **(düzeltildi 24.09.2026) [O]:** 03.09.2026'dan beri Suno'da indirme sınırı var: ücretsizde toplam 7 indirme (kişisel, ticari değil), Pro'da ayda 20, Premier'de ayda 60. V6 modeli 09.09.2026'da çıktı, UMG ve Sony ardından yeni dava açtı. Udio'da indirme kapalı ("walled garden") | Suno ücretsiz planında şarkı Suno'nun, ücretli planda kullanıcının [D]. Topluluk `suno-mcp` hesap çerezleriyle çalışıyor (resmî değil, kullanım şartları riski) [Y][49] | **Önerilmiyor** |
 | AIVA / Soundraw / Beatoven | AIVA'nın ücretsiz planında telif AIVA'da. Pro planda kullanıcıda [D] | Plana bağlı [D] | — |
 
 **Önerilen müzik yaklaşımı:**
@@ -310,6 +315,8 @@ Doğrulanabilen "24 saat sınırsız" bir ses denemesi bulunamadı. En güçlü 
 | Lyria 3 Pro ile müzik taslakları | 60 parça × 5 varyasyon = 300 şarkı | **~24 $** |
 | Lyria 3 ile döngü ve stinger klipleri | 500 × 30 sn | **~20 $** |
 | **Toplam** | | **~92 $, 300 $ kredinin çok altında** |
+
+**(düzeltildi 24.09.2026) Not [O]:** Aynı 1.600 dakika Gemini API'deki Gemini 3.8 Flash TTS ile yaklaşık **22 $** tutar (dakikası ≈0,0135 $), Flash-Lite ile yaklaşık **14 $**. Bu, 31.12.2026'ya kadar geçerli tanıtım fiyatıyla hesaplandı. Ancak Gemini API faturalamasının 300 $'lık Cloud deneme kredisinden düşülüp düşülmediği doğrulanmadı. Blitz 2026 sonundan önce yapılırsa 3.8 TTS'yi önce denemek mantıklı.
 
 **Gerçek darboğaz para değil.** Asıl sınırlar şunlar:
 - Yeni projelerin dakikalık kotaları [D]
@@ -415,6 +422,7 @@ Repo'nun `.mcp.json` dosyasındaki sunucular bulut oturumunda yükleniyor [48]. 
 3. **Ana kadroda insan ses, geniş kadroda tasarlanmış AI ses.** Bu hibrit yapı hem bütçeye uyuyor hem de "AI slop" tepkisini sınırlıyor. **Hiçbir gerçek kişinin sesi (özellikle seiyuu'lar) klonlanmayacak.**
 4. **Lisans beyaz listesi** `docs/legal/model-whitelist.md` dosyasına işlenmeli:
    - **İzinli:** Kokoro, VoxCPM2, Chatterbox, Qwen3-TTS, GPT-SoVITS (rızalı ses), IndexTTS-2.5, AivisSpeech + ACML/CC0, ACE-Step, Stable Audio Open (kayıtlı), Kenney.
+   - **(düzeltildi 24.09.2026) Koşullu:** IndexTTS-2.5 "izinli" listesinden "koşullu" listesine alınmalı. Nedeni: bilibili lisansı çıktıları da Derivative Work sayıyor ve bildirim ile alt alıcı yükümlülükleri getiriyor. HF'deki 2.5 ağırlık lisansı okunmadan kullanılmamalı.
    - **Yasak:** F5-TTS, XTTS-v2, Fish S2 açık ağırlıkları, Higgs v3, MusicGen, MMAudio, ThinkSound, HunyuanVideo-Foley, Suno ücretsiz planı.
 5. **Türkçe ses için ilk adaylar:**
    - Gemini-TTS ve Chirp 3 HD (TR sesleri API'den doğrulanmalı)
@@ -437,9 +445,9 @@ Repo'nun `.mcp.json` dosyasındaki sunucular bulut oturumunda yükleniyor [48]. 
 ## Belirsizlikler ve Riskler
 
 - **Doğrulanamayan ticari şartlar [D]:**
-  - ElevenLabs plan fiyatları ve ücretsiz katmanın ticari yasağı ya da atıf şartı
+  - ElevenLabs plan fiyatları ve ücretsiz katmanın ticari yasağı ya da atıf şartı (24.09.2026: ticari yasak, atıf şartı ve Starter 6 $ doğrulandı [O])
   - ElevenLabs Music'in lisans kapsamı
-  - Gemini API'de TTS ve Lyria'nın ücretsiz katmanı
+  - Gemini API'de TTS ve Lyria'nın ücretsiz katmanı (24.09.2026: Gemini 3.8 TTS için ücretsiz katman var ama kotası bilinmiyor; tanıtım fiyatı 31.12.2026'da bitiyor [O])
   - Lyria RealTime önizleme çıktılarının ticari kullanımı
   - Suno, Udio ve AIVA'nın güncel şartları
 
@@ -521,3 +529,40 @@ Repo'nun `.mcp.json` dosyasındaki sunucular bulut oturumunda yükleniyor [48]. 
 - https://sonniss.com/gameaudiogdc
 - https://freesound.org/help/faq/
 - https://eur-lex.europa.eu/eli/reg/2024/1689/oj
+
+## Doğrulama Notları (24.09.2026)
+
+Bağımsız kontrol. cloud.google.com fiyat sayfaları ve GitHub LICENSE/README dosyaları doğrudan indirilip okundu. elevenlabs.io, ai.google.dev, suno.com ve variety.com engelli olduğundan bu kaynaklar için sunucu tarafı web aramasının özetleri kullanıldı ([O]).
+
+| İddia | Sonuç | Düzeltme/Not | Kaynak |
+|---|---|---|---|
+| Chirp 3 HD: ayda 0–1M karakter ücretsiz, sonra 30 $/1M; Instant custom voice 60 $/1M, ücretsiz katman yok | Doğrulandı | Ek bilgi: WaveNet ve Standard'da 4M karakter ücretsiz, 4 $/1M | https://cloud.google.com/text-to-speech/pricing |
+| Gemini-TTS (Cloud): 2.5 Flash / Flash-Lite 0,50 $ + 10 $/1M; 3.1 Flash (Preview) ve 2.5 Pro 1 $ + 20 $/1M; ücretsiz katman yok; 25 token/sn | Doğrulandı | Sayfadaki model adı "Gemini 2.5 Flash-Lite Preview TTS". Dakika maliyeti hesabı (0,015 $ / 0,03 $) doğru | https://cloud.google.com/text-to-speech/pricing |
+| Yeni müşteriye 300 $ kredi; tam hesap aktive edilmeden ücret kesilmiyor | Doğrulandı | — | https://cloud.google.com/free |
+| Lyria 3 Pro tam şarkı 0,08 $, Lyria 3 30 sn klip 0,04 $, Lyria 2 0,06 $ | Doğrulandı | Sayfa artık "Agent Platform" (gemini-enterprise-agent-platform) adresine yönleniyor | https://cloud.google.com/vertex-ai/generative-ai/pricing |
+| "Gemini 3.8 TTS" (`gemini-3.8-flash-tts`, `gemini-3.8-flash-lite-tts`), 30 hazır ses, Voices API (Voice Design / Replication), sesli rıza cümlesi, yapay zekâ sesleri referans olamaz | Doğrulandı (isim şüphesi giderildi) | Google'ın resmî Cookbook'u tam bu model adlarını kullanıyor (`google-genai>=2.24.0`). Modeller 23.09.2026'da duyurulmuş. Rıza cümlesi kelimesi kelimesine doğru | https://github.com/google-gemini/cookbook/blob/main/quickstarts/Get_started_TTS.ipynb , .../Get_Started_Voices.ipynb |
+| Gemini API'de 3.8 TTS'in ücretsiz katmanı ve fiyatı doğrulanamadı | Düzeltildi [O] | Ücretsiz katman var (kotası yayımlanmamış). Flash: 0,50 $ metin + 9 $/1M ses; Flash-Lite: 6 $/1M ses. 31.12.2026'ya kadar tanıtım fiyatı; 2027'de 18 $ ve 12 $ oluyor. Birincil sayfa (ai.google.dev) engelli | https://ai.google.dev/gemini-api/docs/pricing (arama özeti), https://www.eesel.ai/blog/gemini-3-8-flash-tts-pricing |
+| Lyria 3.5 (3 dakikaya kadar, `instrumental_only`); Lyria RealTime "önizleme, şimdilik kota sınırlı ücretsiz" | Doğrulandı | Cookbook'ta `lyria-3.5`, `lyria-3-pro-preview` ve `lyria-3-clip-preview` modelleri listeleniyor | https://github.com/google-gemini/cookbook/blob/main/quickstarts/Get_started_Lyria.ipynb , .../Get_started_LyriaRealTime.ipynb |
+| ElevenLabs yerel MCP deprecated, hosted MCP `https://api.elevenlabs.io/v1/mcp` (OAuth); ücretsiz katman 10 bin kredi/ay | Doğrulandı | PyPI `elevenlabs-mcp` 0.12.2 | https://github.com/elevenlabs/elevenlabs-mcp |
+| ElevenLabs ücretsiz katman ticari değil ve atıf şartlı; Starter'dan itibaren ticari [D] | Doğrulandı [O] | Ücretsiz planda ticari kullanım yok; yayında başlığa "elevenlabs.io"/"11.ai" yazılması gerekiyor. Starter 6 $/ay, 30 bin kredi, ticari lisans | https://help.elevenlabs.io/hc/en-us/articles/13313564601361 , https://elevenlabs.io/pricing |
+| VoxCPM2: Apache-2.0 (ağırlık dahil), 30 dil, Türkçe ve Japonca dahil, Voice Design | Doğrulandı | README'deki dil listesinde Japanese ve Turkish açıkça geçiyor | https://github.com/OpenBMB/VoxCPM |
+| Chatterbox Multilingual V3: MIT, 23 dil (ja, tr dahil), PerTh filigranı; Nano 8 çekirdekte 3× gerçek zaman | Doğrulandı | — | https://github.com/resemble-ai/chatterbox |
+| Qwen3-TTS Apache-2.0, JA/EN, Voice Design | Doğrulandı (nüansla) | 10 dil var, Türkçe yok. Voice Design yalnızca 1.7B-VoiceDesign modelinde; 0.6B modellerde yok | https://github.com/QwenLM/Qwen3-TTS |
+| Kokoro Apache (ağırlık dahil), 5 JA ses, TR yok | Doğrulandı | — | https://github.com/hexgrad/kokoro |
+| GPT-SoVITS MIT; JA/EN/KO/ZH | Doğrulandı | Kantonca da destekleniyor | https://github.com/RVC-Boss/GPT-SoVITS |
+| IndexTTS-2.5 bilibili lisansı: 100M MAU veya 1 milyar RMB ciro altında ücretsiz ticari | Düzeltildi (koşul eklendi) | Eşikler doğru. Ancak lisans çıktıları da "Derivative Work" sayıyor (md. 1.5). Telif bildirimi ve lisans kopyası tutma (3.4b) ve alt alıcılara şart koyma (3.4a) yükümlülükleri var. Uygulanacak hukuk ÇHC. Lisans metni modeli "bilibili indextts2" diye tanımlıyor | https://github.com/index-tts/index-tts/blob/main/LICENSE |
+| F5-TTS ağırlıkları CC-BY-NC (kod MIT) | Doğrulandı | Neden Emilia eğitim verisi | https://github.com/SWivid/F5-TTS |
+| XTTS-v2 CPML | Doğrulandı | `.models.json`: `"license": "CPML"` | https://github.com/idiap/coqui-ai-TTS/blob/dev/TTS/.models.json |
+| Fish Audio S2 Pro: kod ve ağırlıklar Fish Audio Research License; ticari kullanım için yazılı lisans | Doğrulandı | Lisans tarihi 7 Mart 2026 | https://github.com/fishaudio/fish-speech/blob/main/LICENSE |
+| Higgs Audio v3 araştırma ve ticari olmayan lisans; ücretsiz, hız sınırlı API önizlemesi | Doğrulandı | — | https://github.com/boson-ai/higgs-audio |
+| AivisSpeech Engine LGPL-3.0; ACML-1.0 kişisel ve ticari kullanıma izin veriyor, kredi isteğe bağlı | Doğrulandı | Modeli dağıtırken lisans metni eklenmeli. Gerçek kişi ve kurumlara saldırı/itibarsızlaştırma yasak | https://github.com/Aivis-Project/ACML/blob/master/ACML-1.0.md |
+| ACE-Step 1.5 MIT; 10 sn–10 dk; 50+ dil; ≤6 GB'ta DiT-only | Doğrulandı | README "<4 GB VRAM" de diyor. XL (4B) için ≥12 GB (offload ile) gerekiyor | https://github.com/ace-step/ACE-Step-1.5 |
+| MusicGen/AudioCraft ağırlıkları CC-BY-NC 4.0 | Doğrulandı | Kod MIT | https://github.com/facebookresearch/audiocraft |
+| MMAudio checkpoint'leri CC-BY-NC 4.0 | Doğrulandı | — | https://github.com/hkchengrex/MMAudio |
+| YuE2 ağırlıkları CC BY-NC 4.0 + yaratıcı izni; şirketler lisans almalı | Doğrulandı | — | https://github.com/multimodal-art-projection/YuE |
+| Stability AI Community License: yıllık 1M $ ciro altında ücretsiz ticari kullanım, kayıt şart | Doğrulandı | — | https://github.com/FunAudioLLM/ThinkSound/blob/master/third_party/LICENSE_StabilityAI.md |
+| HunyuanVideo-Foley lisansı AB/UK/Güney Kore'de geçersiz | Doğrulandı | — | https://github.com/Tencent-Hunyuan/HunyuanVideo-Foley/blob/main/LICENSE |
+| Suno/Udio 2025–2026 durumu doğrulanamadı [D] | Düzeltildi [O] | WMG–Udio (19.11.2025) ve WMG–Suno (25.11.2025) anlaşmaları yapıldı. Suno'da 03.09.2026'dan beri indirme sınırı var: ücretsizde toplam 7 (kişisel, ticari değil), Pro'da ayda 20, Premier'de ayda 60. V6 modeli 09.09.2026'da çıktı, UMG ve Sony yeni dava açtı. Udio'da indirme kapalı. "Önerilmiyor" kararı geçerli | https://help.suno.com/en/articles/13614785 , https://www.billboard.com/pro/umg-sony-hit-suno-with-lawsuit-after-new-ai-music-model/ , https://www.musicbusinessworldwide.com/universal-music-settles-udio-lawsuit-strikes-deal-for-licensed-ai-music-platform/ |
+| Godot 4.3+ `AudioStreamInteractive`, `AudioStreamPlaylist`, `AudioStreamSynchronized` | Doğrulandı | 4.3-stable etiketinde üçü de var, 4.2-stable'da yok | https://github.com/godotengine/godot/blob/4.3-stable/modules/interactive_music/doc_classes/AudioStreamInteractive.xml |
+| Azure `tr-TR-Aydın:MAI-Voice-2` | Doğrulandı | `MAI-Voice-2-Flash` varyantı da var | https://github.com/MicrosoftDocs/azure-ai-docs/blob/main/articles/ai-services/speech-service/includes/language-support/tts.md |
+| PyPI sürümleri: `google-genai` 2.25.0, `elevenlabs-mcp` 0.12.2 | Doğrulandı | — | https://pypi.org/pypi/google-genai/json |

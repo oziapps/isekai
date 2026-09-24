@@ -13,7 +13,7 @@
 
 - **Sürükleyicilik tek bir özellik değil, dört katmanın toplamı.** Duyusal katman (görüntü, ses, haptik), sistemik katman (dünya eylemlerine tepki veriyor), anlatısal/duygusal katman (kimlik, bağlar, bedel) ve isekai'ye özgü **meta katman** (oyuncunun gerçek hayatı kurguya sızıyor). Piyasadaki anime/isekai oyunları genelde yalnızca birinci katmana yatırım yapıyor. Bizim farkımız dördünü birlikte kurmak olmalı.
 - **"Sistem" bir arayüz değil, bir karakter olmalı.** Status penceresi dünya içinde, yalnızca oyuncunun gördüğü holografik bir panel olarak konumlanmalı. Kendine özgü bir sesi ve kişiliği olmalı, zamanla "arıza" vermeli (P3 gizemi). Dead Space'in sırt üstü sağlık göstergesi ve Assassin's Creed'in Animus'u, arayüzü kurguyla meşrulaştırmanın iki bilinen örneği [BT, yüksek]. İsekai'de bu meşrulaştırma zaten türün içinde hazır.
-- **Varış ilk 120 dakikada tamamen oynanabilir olmalı.** Steam'in iade kuralı (14 gün, 2 saatten az oynama) nedeniyle vaat ilk 2 saatte teslim edilmeli [21]. Önerilen akış: oynanabilir "Son Gün" (diegetik karakter yaratma) → geçiş anı → dilini bilmediğin bir dünyada uyanma → Lonca kaydı → Sistem uyanışı → ilk ölüm ve "Geri Yükleme" → ilk şehir → ilk yoldaş.
+- **Varış ilk 120 dakikada tamamen oynanabilir olmalı.** Steam'in iade kuralı (14 gün, 2 saatten az oynama) nedeniyle vaat ilk 2 saatte teslim edilmeli [21]. Önerilen akış: oynanabilir "Son Gün" (diegetik karakter yaratma) → geçiş anı → dilini bilmediğin bir dünyada uyanma → Lonca kaydı → Sistem uyanışı → ilk ölüm ve "Geri Yükleme" → ilk şehir → ilk yoldaş. **Düzeltme (24.09.2026):** İlk sürümde ilk gerçek dövüş 65. dakikaya, Uyanış olayı 105–120. dakikaya kalıyordu. Bu, 03 raporundaki hedeflerle (ilk dövüş ilk 5–10 dk, Uyanış ≤90. dk) çelişiyordu ve aksiyon oyununda iade riskini artırıyordu. Hizalanmış takvim §3'te: ilk dövüş ≤10. dk, ilk yoldaş (yerli rehber) 15–30. dk, Uyanış ≤90. dk.
 - **Dil öğrenme, "yabancı" hissinin en ucuz ve en güçlü aracı.** Final Fantasy X'teki Al Bhed sözlükleri ve Chants of Sennaar tarzı kademeli çeviri, oyuncuya "burada yabancıyım" duygusunu mekanikle yaşatıyor [BT, yüksek]. Süresi kısa tutulmalı (20–40 dk) ve atlanabilir olmalı.
 - **Ölüm döngüsü, roguelite yapıya anlatısal bir gerekçe sunuyor.** Hades'te ~21.000 seslendirilmiş replik var ve ölüm hikâyeyi ilerletiyor [22]. Bizde de ölüm "Geri Yükleme" olarak kurgulanmalı: NPC'lerin déjà vu replikleri ve Sistem kaydındaki "Döngü #n" ile, P4 sütununa uygun şekilde.
 - **Eski hayat, sayısal bir fark yaratmalı (P1).** Oyuncunun seçtiği meslek başlangıç perk'ini, diyalog seçeneklerini ve bir "pişmanlık" görevini belirlemeli. Gerçek tarih/saat (Dünya'dan ayrılalı N gün, mevsim, isteğe bağlı doğum günü) düşük maliyetle güçlü bir meta-bağ kuruyor. Kişisel veriler yalnızca yerelde tutulmalı.
@@ -71,7 +71,21 @@ Akademik literatürde sürükleyicilik genelde katmanlı ele alınıyor. Brown v
 
 03 raporundaki FTUE hedefleri (0–1 dk'da kontrol oyuncuda, 60–120 dk'da Uyanış olayı) korunarak sahne sahne öneri:
 
-### 3.1 "Son Gün" prologu: modern dünya, diegetik karakter yaratma (0–8 dk)
+> **Hizalama notu (düzeltildi 24.09.2026):** Bu bölümün ilk sürümü 03 raporuyla çelişiyordu. İlk gerçek dövüş 65–85. dakikadaydı (03: ilk düşman 1–5. dk, "dövüş iyi mi" yargısı ilk 5 dk'da oluşur). İlk yoldaş 105–120. dakikadaydı (03: 5–15. dk). Uyanış olayı 105–120. dakikadaydı (03 Çıkarımlar #2: 90. dakikadan önce). İlk 65 dakikayı dövüşsüz geçiren bir aksiyon RPG, Steam'in 2 saatlik iade penceresinde gereksiz risk taşıyor. Sahnelerin içeriği korunarak dakikalar aşağıdaki gibi hizalandı. Alt başlıklardaki dakikalar bu tabloya göre güncellendi. Tüm değerler hedeftir, olgu değildir.
+>
+> | Dakika (hedef) | Olay | 03 raporundaki karşılığı |
+> |---|---|---|
+> | 0–5 | "Son Gün" prologu (kısaltılmış), ~3–5. dk'da ilk Sistem "hata mesajı" | 0–1 dk kontrol oyuncuda |
+> | 5–7 | Geçiş anı | 1–5 dk varış |
+> | 7–15 | Yeni dünyada uyanış + **ilk dövüş** (hayatta kalma karşılaşması, hit-stop, Sistem "ding"i). Dil segmenti başlar, dövüş ve keşifle iç içe ilerler | 1–5 dk ilk düşman |
+> | 15–30 | **İlk yoldaş (a: yerli rehber)**, ilk mini-Gate, ilk 3'lü Sistem önerisi, ilk seviye atlama. "Dil Kavrayışı Lv1" ~25–40. dk | 5–15 dk |
+> | 30–45 | Lonca kaydı, F-rank damgası, Sistem'in kısmi uyanışı (günlük görev) | 5–15 dk F-rank |
+> | 45–65 | İlk boss, ilk ölüm ve "Geri Yükleme", déjà vu replikleri | 15–60 dk |
+> | 65–80 | İlk şehir, ilk Status mühürleme töreni, ilk kasaba yapısı | 15–60 dk |
+> | 80–90 | **Uyanış olayı:** gizli sınıf, ilk Aura anı, eski boss'a rövanş | 60–120 dk, "90. dakikadan önce" |
+> | 90–120 | Meta katmanların önizlemesi, rakip yabancı (b) ile tanışma, Bölüm 1 sonu ve "sonraki bölüm" önizlemesi | 60–120 dk |
+
+### 3.1 "Son Gün" prologu: modern dünya, diegetik karakter yaratma (0–5 dk; ilk sürümde 0–8 dk, düzeltildi 24.09.2026)
 
 - **Kurgu:** Oyuncunun Dünya'daki son akşamı. Kontrol ilk saniyeden itibaren oyuncuda. Uzun logo ve açıklama yok.
 - **Karakter yaratma menüsü yok, eşyalar var:**
@@ -97,7 +111,7 @@ Akademik literatürde sürükleyicilik genelde katmanlı ele alınıyor. Brown v
 | Kurye / şoför | Harita ezberi, hızlı seyahat | Kervanlar ve tüccarlar | Teslim edilmemiş paket (gizem) |
 | "Oyuncu" (gamer) | "Meta Bilgi": düşman HP barını erken görme | NPC'lerin "bu yabancı neden her şeyi biliyor?" tepkileri (P9) | Söz verip gidemediği buluşma |
 
-### 3.2 Geçiş anı (8–10 dk): Truck-kun yok
+### 3.2 Geçiş anı (5–7 dk; ilk sürümde 8–10 dk, düzeltildi 24.09.2026): Truck-kun yok
 
 - Kamyon klişesi hayranların bıktığı ilk trope (01 raporu [37]).
 - **Alternatifler:**
@@ -106,9 +120,11 @@ Akademik literatürde sürükleyicilik genelde katmanlı ele alınıyor. Brown v
   - Uyurken çalan bir alarm.
 - **Ses tasarımı en önemli araç:** Şehir uğultusu, kulak çınlamasına ve sonra tam sessizliğe dönüşür. İlk ses, yeni dünyanın rüzgârı ve yabancı bir kuş olur. Ekran kararırken yalnızca Sistem metni kalır.
 
-### 3.3 Uyanış ve dil (10–40 dk)
+### 3.3 Uyanış ve dil (7–40 dk, dövüşle iç içe; düzeltildi 24.09.2026)
 
 - Yakın kamera ve kısa bir duyusal aşırı yüklenme: iki ay, yabancı bir koku, bitki dokusu.
+- **İlk dövüş burada, en geç 10. dakikada gelir (düzeltildi 24.09.2026):** Uyanıştan hemen sonra kısa bir hayatta kalma karşılaşması, hit-stop ve Sistem "ding"i. Oyuncu dil bilmeden de savaşabilir. "Bu oyunun dövüşü iyi" yargısı ilk dakikalarda oluşur (03 raporu).
+- **İlk yoldaş (a: yerli rehber) 15–30. dakikada katılır:** Dili ve gelenekleri öğreten yerli karakter, kademeli çevirinin doğal taşıyıcısıdır (§3.8).
 - İlk NPC konuşur ve altyazı **uydurma bir yazıyla** görünür.
 - **Kademeli çeviri:**
   - Oyuncu işaret, jest ve nesne-kelime eşleştirmesiyle kelime öğrenir (FFX Al Bhed, Chants of Sennaar [BT]).
@@ -117,7 +133,7 @@ Akademik literatürde sürükleyicilik genelde katmanlı ele alınıyor. Brown v
   - Bu an, Sistem'in "sana yardım ediyorum" diyerek oyuncunun güvenini kazandığı ilk andır.
 - **Erişilebilirlik ve sabır:** "Dil engelini atla" seçeneği olmalı. Ana görev hiçbir zaman dil bulmacasına kilitlenmemeli. Öğrenilen kelimeler şehirde tabelaları okumak gibi sonraki sürprizlerde işe yarar.
 
-### 3.4 Gelenekler ve Lonca kaydı (40–55 dk)
+### 3.4 Gelenekler ve Lonca kaydı (30–45 dk; ilk sürümde 40–55 dk, düzeltildi 24.09.2026)
 
 - **Küçük kültürel kurallar:** selamlaşma biçimi, sağ elle yeme, "gerçek adını söylemek güç verir" tabusu. Bu tabu, Ad Verme mekaniğine bağlanır (Bölüm 8.1).
 - **Lonca kaydı töreni:**
@@ -125,47 +141,48 @@ Akademik literatürde sürükleyicilik genelde katmanlı ele alınıyor. Brown v
   - Rütbe "F" çıkar ve memurun yüzünde acıma ifadesi görülür. Bu, 03 raporundaki "F-rank damgası" duygusal kancasıdır.
   - Memur, DanMachi'deki lonca danışmanı rolünün orijinal bir karşılığıdır. İleride bir yoldaş ya da bağ adayı olabilir.
 
-### 3.5 Sistem uyanışı (ilk 10 dk'da tohum, 55–65 dk'da tam uyanış)
+### 3.5 Sistem uyanışı (ilk 5 dk'da tohum, 30–45 dk'da kısmi uyanış, 80–90 dk'da gizli sınıf; düzeltildi 24.09.2026)
 
-- İlk Sistem penceresi 3–5. dakikada kısa bir "hata mesajı" olarak görünür. Tam uyanış kayıttan sonra gelir: **gizli sınıf**, günlük görev ve ceza kuralı.
+- İlk Sistem penceresi 3–5. dakikada kısa bir "hata mesajı" olarak görünür. Kayıttan sonra günlük görev ve ceza kuralı açılır. **Gizli sınıf** ve ilk Aura anı, 03 raporundaki "90. dakikadan önce" hedefiyle uyumlu olarak 80–90. dakikadaki Uyanış olayına ayrılır (düzeltildi 24.09.2026).
 - **Günlük görev, etik tasarım (03 raporundaki kırmızı çizgilerle uyumlu):**
   - Günlük "Eğitim" küçük ama görünür bir kazanç sağlar (P2).
   - Kaçırılırsa ceza kaybettirmez. Bunun yerine "Telafi Zindanı" adında eğlenceli bir hayatta kalma görevi açılır. Solo Leveling'deki ceza bölgesi trope'unun orijinal ve cezasız karşılığı budur.
-  - Seri (streak) kaybı yok. En fazla 3 gün biriktirilebilir.
+  - Seri (streak) kaybı yok. Kaçırılan günler 03 raporuyla uyumlu olarak en fazla 7 gün biriktirilebilir (ilk sürümde 3 gün yazıyordu; düzeltildi 24.09.2026).
 
-### 3.6 İlk dövüş, ilk ölüm ve "Geri Yükleme" (65–85 dk)
+### 3.6 İlk boss, ilk ölüm ve "Geri Yükleme" (45–65 dk; ilk sürümde "ilk dövüş" 65–85 dk idi, düzeltildi 24.09.2026)
 
-- İlk gerçek dövüş kaybedilebilir, hatta kaybedilmesi beklenir.
+- İlk boss dövüşü kaybedilebilir, hatta kaybedilmesi beklenir. (İlk sıradan dövüş artık §3.3'te, ≤10. dakikada.)
 - Ekran donar ve Sistem der ki: *"Kritik hata. Son kararlı duruma geri yükleniyor… Döngü #1 kaydedildi."*
 - **Re:Zero trope'unun orijinal yorumu:** Geri Yükleme'nin bedeli var (bir "Yıpranma" göstergesi, bir anı kaybı). Kimseye anlatılamıyor, anlatmaya çalışınca Sistem sesi bozuluyor.
 - **NPC tepkisi:**
   - Geri Yükleme'den sonra bazı NPC'ler "Seni daha önce görmüş gibiyim" gibi déjà vu replikleri söyler (Hades modeli [22]).
   - Bu replikler olay bayraklarıyla tetiklenir, yazılı ve seslendirilmiş olur. LLM gerekmez.
 
-### 3.7 İlk şehir (85–105 dk)
+### 3.7 İlk şehir (65–80 dk; ilk sürümde 85–105 dk, düzeltildi 24.09.2026)
 
 - Varış sinematiği: vinç çekimi, şehrin leitmotif'i, kalabalık NPC rutinleri, satıcı bağırışları ve tapınak çanı.
 - Oyuncunun öğrendiği kelimeler tabelalarda karşısına çıkar (ödül).
 - İlk hanın odası "ev" hissinin tohumudur. Daha sonra dekore edilebilir (kozmetik gelir için doğal bir alan).
 
-### 3.8 İlk yoldaş (105–120 dk)
+### 3.8 Yoldaşlar ve Bölüm 1 sonu (yerli rehber 15–30 dk, rakip yabancı ve bölüm sonu 90–120 dk; ilk sürümde 105–120 dk, düzeltildi 24.09.2026)
 
-- İlk yoldaş, oyuncunun **en zayıf anında** gelmeli: F-rank alay sahnesi ve ölüm sonrası.
+- İlk yoldaş, oyuncunun **en zayıf anında** gelmeli. Hizalanmış takvimde bu an, uyanıştan hemen sonraki ilk hayatta kalma dövüşüdür (düzeltildi 24.09.2026).
 - **Önerilen iki arketip:**
-  - (a) Oyuncuya dili ve gelenekleri öğreten yerli biri. Doğal bir tutorial olur.
-  - (b) Başka bir "Sistem"e sahip, rakip bir yabancı.
+  - (a) Oyuncuya dili ve gelenekleri öğreten yerli biri. Doğal bir tutorial olur. 15–30. dakikada katılır.
+  - (b) Başka bir "Sistem"e sahip, rakip bir yabancı. Uyanış olayından sonra (90–120. dk) tanıtılır.
 - Bölüm 1, "sonraki bölüm" önizlemesiyle biter (P10).
 
-| Dakika | Olay | Hedef his | Telemetri (03 raporuyla uyumlu) |
+| Dakika (hizalanmış; düzeltildi 24.09.2026) | Olay | Hedef his | Telemetri (03 raporuyla uyumlu) |
 |---|---|---|---|
-| 0–8 | Son Gün, eşyalarla karakter yaratma | "Bu benim hayatım" | `ftue_prologue_done` |
-| 8–10 | Geçiş | Ürperti | — |
-| 10–40 | Uyanış, dil | Yabancılık, merak | `lang_lv1` |
-| 40–55 | Lonca kaydı, F-rank | Küçük düşürülme | `guild_card` |
-| 55–65 | Sistem uyanışı | Umut, gizem | `system_awaken` |
-| 65–85 | İlk ölüm ve Geri Yükleme | Şok, sonra "anladım" | `first_death`, `first_restore` |
-| 85–105 | İlk şehir | Hayranlık | `town_arrival` |
-| 105–120 | İlk yoldaş, Uyanış olayı, Bölüm 1 sonu | Bağ, "bir bölüm daha" | `ep1_complete` |
+| 0–5 | Son Gün, eşyalarla karakter yaratma | "Bu benim hayatım" | `ftue_prologue_done` |
+| 5–7 | Geçiş | Ürperti | — |
+| 7–15 | Uyanış, **ilk dövüş**, dil başlangıcı | Yabancılık, merak, "dövüş iyi" | `first_combat` |
+| 15–30 | İlk yoldaş (yerli rehber), ilk mini-Gate, ilk seviye | Güven, yetkinlik | `first_companion`, `lang_lv1` (~25–40. dk) |
+| 30–45 | Lonca kaydı, F-rank, Sistem'in kısmi uyanışı | Küçük düşürülme, gizem | `guild_card`, `system_awaken` |
+| 45–65 | İlk boss, ilk ölüm ve Geri Yükleme | Şok, sonra "anladım" | `first_death`, `first_restore` |
+| 65–80 | İlk şehir, ilk Status mühürleme | Hayranlık | `town_arrival`, `first_seal` |
+| 80–90 | Uyanış olayı: gizli sınıf, ilk Aura anı | "Bende bir şey var" | `awakening_seen` |
+| 90–120 | Rakip yabancı, meta önizleme, Bölüm 1 sonu | Bağ, "bir bölüm daha" | `ep1_complete` |
 
 ---
 
@@ -231,7 +248,7 @@ Hedef 4–6 derin yoldaş (02 raporu). Karaktersiz harem en çok eleştirilen tr
   - Tüm romans edilebilir karakterler **açıkça yetişkin** olmalı. Yaşları kanonik olarak belirtilmeli, görsel tasarımları da yetişkin olmalı. "1000 yaşında ama çocuk görünümlü" kalıbı kesinlikle olmamalı.
   - Rıza açık olmalı, reddetme seçeneği her zaman bulunmalı. Yoldaş, oyuncuya "mekanik ödül" olarak sunulmamalı.
   - Romans oyuncunun seçimine göre açılmalı ama karakter bütünlüğü korunmalı. Herkesin her oyuncuyla romans yaşadığı "playersexual" tasarım eleştiri alıyor [BT, orta].
-  - Platform ve derecelendirme: Steam'in Temmuz 2025 kuralı ödeme işlemcisi standartlarını ihlal edebilecek içeriği yasaklıyor [27]. Hedef PEGI 12/16 ve ESRB T (04 raporu). Mushoku Tensei'nin Bilibili'den kaldırılması gibi vakalar itibar riskini gösteriyor [36].
+  - Platform ve derecelendirme: Steam'in Temmuz 2025 kuralı ödeme işlemcisi standartlarını ihlal edebilecek içeriği yasaklıyor [27]. (Doğrulandı 24.09.2026: kural ~16 Temmuz 2025'te Steamworks kurallarına 15. madde olarak eklendi. Kaldırılan oyunların çoğu ensest, kölelik ve rıza dışı temalı "Adults Only" oyunlardı. PEGI 12/16 ve ESRB T hedefli romans bu kuralın kapsamı dışında kalır, ama "köle harem" gibi trope'lar doğrudan risk alanında.) Hedef PEGI 12/16 ve ESRB T (04 raporu). Mushoku Tensei'nin Bilibili'den kaldırılması gibi vakalar itibar riskini gösteriyor [36].
 - **Monetizasyon ("waifu/husbando" çekiciliği, yırtıcılık olmadan):**
   - İzinli: yoldaş kıyafetleri **doğrudan ve sabit fiyatla** satılır, fotoğraf modu pozları, herkesin aynı fiyata alabildiği hikâye DLC'leri ("Festival Günü" bölümü), OST ve artbook.
   - Yasak:
@@ -250,7 +267,7 @@ Hedef 4–6 derin yoldaş (02 raporu). Karaktersiz harem en çok eleştirilen tr
 
 | Oyun / proje | Ne yapıyor | Tepki / durum | Ders | Güven |
 |---|---|---|---|---|
-| **Where Winds Meet** (NetEase, 14 Kas 2025) | Açık dünyada LLM ile sohbet eden NPC'ler. Oyun Steam'de 251.008 eşzamanlı oyuncuya ulaştı | Oyuncular NPC'leri manipüle etti (PC Gamer başlığı: "karakterimin ondan hamile olduğuna inandırdım"). Uydurma sırlar ve dönem hataları sürükleyiciliği bozdu | Serbest sohbet, lore tutarlılığı ve güvenlik için büyük risk. Viral ilgi ile kalite algısı ters yönde işleyebilir | [O] [23][24][34] |
+| **Where Winds Meet** (NetEase, 14 Kas 2025) | Açık dünyada LLM ile sohbet eden NPC'ler. Oyun Steam'de 251.008 eşzamanlı oyuncuya ulaştı (23 Kas 2025; doğrulandı 24.09.2026) | Oyuncular NPC'leri manipüle etti (PC Gamer başlığı: "karakterimin ondan hamile olduğuna inandırdım"). NPC uydurma hamileliği sorgulamadı, ilişki seviyesi yine de yükseldi. Oyuncular "Solid Snake yöntemi" ile NPC'leri kandırıp yan görevleri atlattı, yani LLM oynanış kurallarını da delebildi (eklendi 24.09.2026). Uydurma sırlar ve dönem hataları sürükleyiciliği bozdu | Serbest sohbet, lore tutarlılığı ve güvenlik için büyük risk. Viral ilgi ile kalite algısı ters yönde işleyebilir | [O] [23][24][34] |
 | **inZOI** (Krafton, EA Mart 2025) | "Smart Zoi": NVIDIA ACE tabanlı, cihazda çalışan küçük dil modeliyle NPC davranışı. İsteğe bağlı ve RTX gerektiriyor | Yenilik olarak ilgi gördü | Yerel SLM'ler ticari bir oyunda çalışıyor, ama donanım bağımlılığı var | [BT, orta] |
 | **PUBG Ally** (Krafton × NVIDIA, CES 2025'te duyuruldu) | Sesle komut alan, cihazda çalışan "birlikte oynanabilir karakter" | Yayın durumu ve tarihi bu oturumda doğrulanamadı | Takım arkadaşı yapay zekâsı dar görev alanında daha güvenli | [BT, düşük–orta] |
 | **Mecha BREAK** (Amazing Seasun) | NVIDIA ACE demosunda sesle konuşulan mekanik NPC | Çıkış sürümünde bulunup bulunmadığı doğrulanamadı | Demo ile çıkış sürümü arasında fark olabilir | [BT, düşük] |
@@ -308,7 +325,7 @@ Hedef 4–6 derin yoldaş (02 raporu). Karaktersiz harem en çok eleştirilen tr
   - Ocak 2024'ten beri önceden üretilmiş ve **canlı üretilen** yapay zekâ içeriğinin beyanı gerekiyor. Canlı üretimde korumaların açıklanması isteniyor [28, erişilemedi; 05 raporu].
   - Form, oyuncunun tükettiği içeriğe odaklanacak şekilde güncellendi [26].
   - 2025 çıkışlarının ~%20'si yapay zekâ beyan etti [25].
-- **AB AI Act md. 50 (şeffaflık):** Yapay zekâyla etkileşime girdiğini bilmeyen kişiyi bilgilendirme yükümlülüğü var. Uygulama tarihinin 2 Ağustos 2026 olduğu biliniyor, ancak erteleme tartışmaları var [BT, orta]. Pratik çözüm: LLM'li her karakterde görünür bir "AI" rozeti ve ayarlarda açıklama.
+- **AB AI Act md. 50 (şeffaflık):** Yapay zekâyla etkileşime girdiğini bilmeyen kişiyi bilgilendirme yükümlülüğü var. **Düzeltme (24.09.2026):** Md. 50, 2 Ağustos 2026'dan beri uygulanıyor. Digital Omnibus yüksek riskli sistemlerin tarihlerini 2027–2028'e erteledi, ama md. 50'yi ertelemedi. Tek istisna: 2 Ağustos 2026'dan önce piyasaya sürülmüş sistemler için md. 50(2) makinece okunabilir işaretleme yükümlülüğüne 2 Aralık 2026'ya kadar geçiş süresi var. Bu nedenle LLM'li her karakter için "AI" bildirimi bugünden zorunlu kabul edilmeli. Pratik çözüm: LLM'li her karakterde görünür bir "AI" rozeti ve ayarlarda açıklama.
 - **Seslendirme sanatçısı hakları:** SAG-AFTRA 2025 Interactive Media sözleşmesi dijital kopya için rıza ve ücret şartı getiriyor [30]. Japonya'daki "NO MORE 無断生成AI" kampanyası (07 raporu) ile birlikte düşünüldüğünde, gerçek bir sanatçının sesiyle **anlık** üretim yapılmamalı.
 
 ### 7.5 Oyuncu tepkisi
@@ -318,7 +335,7 @@ Hedef 4–6 derin yoldaş (02 raporu). Karaktersiz harem en çok eleştirilen tr
   - Mekanik açıkça "LLM ile konuşmak" olduğunda tolerans yüksek (Whispers from the Star [BT]).
 - **Olumsuz:**
   - Büyük ve yazılı bir dünyada tutarsızlık hemen fark ediliyor (WWM [23][24]).
-  - "AI slop" damgası anime kitlesinde güçlü. Clair Obscur'un Indie Game Awards ödüllerini kaybetmesi buna örnek [35].
+  - "AI slop" damgası anime kitlesinde güçlü. Clair Obscur'un Indie Game Awards ödüllerini kaybetmesi buna örnek [35]. (Nüans, 24.09.2026: ödüller 20 Aralık 2025'te geri alındı; neden, çıkış sürümünde kalan AI ile üretilmiş geçici dokular ve başvurudaki "gen AI yok" beyanıydı. Ders: placeholder varlıklar da izlenmeli ve beyan eksiksiz olmalı.)
   - Beyanlı oyunların daha az ilgi gördüğüne dair iddialar var, ama nedensellik kanıtlanmadı [25].
 - **Sonuç:** LLM, ana anlatının taşıyıcısı olmamalı. Kurguda tuhaflığı açıklanabilen tek bir karakterde (Sistem) sınırlı bir deney olarak kalmalı.
 
@@ -487,7 +504,7 @@ Hedef 4–6 derin yoldaş (02 raporu). Karaktersiz harem en çok eleştirilen tr
 11. **Dünya tohumu seçimi:** Türk kitlesinde PR kaldıracı ve görsel ayırt edicilik için **A (Kut Ağacı)**, meta-sürüklenme gücü için **C (Eşik)** öne çıkıyor. İkisi birleştirilebilir: Kut Ağacı dünyasında Eşik'in "komadaki beden" gerekçesi ve gün sayacı kullanılabilir. Karar, 01–03 raporlarındaki sütunlarla birlikte konsept yarışmasında verilmeli.
 12. **Diegetik "Eski Telefon"** fotoğraf modunu, günlüğü ve P3 gizemini tek bir tanıdık nesnede toplar. Düşük sanat maliyetiyle yüksek kimlik değeri sağlar ve P1'de öne alınmalı.
 13. **Erişilebilirlik ve yerelleştirme ilk günden olmalı.** Türkçe ek uyumu yardımcı fonksiyonları, CJK font altyapısı, altyazı ve flaş ayarları dikey dilimde bulunmalı. Godot seçilirse AccessKit tabanlı ekran okuyucu desteği değerlendirilmeli [20].
-14. **Şeffaflık:** Steam AI beyanı dürüst ve ayrıntılı olmalı. LLM'li karakterlerde "AI" rozeti olmalı (AB AI Act md. 50 [BT]). Kredilerde AI kullanımı açıkça yazılmalı (07 raporu).
+14. **Şeffaflık:** Steam AI beyanı dürüst ve ayrıntılı olmalı. LLM'li karakterlerde "AI" rozeti olmalı (AB AI Act md. 50; 2 Ağustos 2026'dan beri yürürlükte, ertelenmedi; düzeltildi 24.09.2026). Kredilerde AI kullanımı açıkça yazılmalı (07 raporu).
 
 ---
 
@@ -496,7 +513,7 @@ Hedef 4–6 derin yoldaş (02 raporu). Karaktersiz harem en çok eleştirilen tr
 - **Doğrulama boşluğu (en büyük risk):** WebSearch bütçesi tükendiği ve alan adları engellendiği için şu iddialar **[BT]** olarak kaldı ve doğrulama ekibi tarafından kontrol edilmeli:
   - inZOI, PUBG Ally, Mecha BREAK, Whispers from the Star, Suck Up!, Vaudeville ve Dead Meat ayrıntıları
   - KCD2, BG3, Dead Space, .hack//, Outer Wilds, NieR, FFX ve Morrowind tasarım ayrıntıları
-  - WCAG 2.3.1, Nemesis patenti, SB 243, Replika cezası ve AI Act md. 50 tarihi
+  - WCAG 2.3.1, Nemesis patenti, SB 243, Replika cezası (AI Act md. 50 tarihi 24.09.2026'da doğrulandı: 2 Ağustos 2026'dan beri yürürlükte)
   - The Last of Us Part II'nin erişilebilirlik seçeneği sayısı
 - **LLM teknolojisi hızla değişiyor:** Inworld'ün yeniden konumlanması GitHub vitrininden çıkarıldı [9], şirketin resmî açıklaması görülmedi [O]. Convai fiyatları ve veri politikası doğrulanamadı. NVIDIA ACE README'si güncel olmayabilir [5].
 - **Donanım:** Yerel LLM'in hedef kitlenin GPU ve RAM dağılımında çalışıp çalışmayacağı ölçülmedi. NVIGI 8 GB+ VRAM'li NVIDIA ve Windows istiyor [6][7]. Oyunun kendi VRAM bütçesiyle çakışabilir. Türkçe ve Japonca kalitesi küçük modellerde düşük olabilir.
@@ -564,3 +581,24 @@ Hedef 4–6 derin yoldaş (02 raporu). Karaktersiz harem en çok eleştirilen tr
 - Guilty Gear Xrd GDC 2015 sanat yönetimi konuşması; WCAG 2.3.1; The Last of Us Part II'nin 60'tan fazla erişilebilirlik seçeneği
 - inZOI Smart Zoi (NVIDIA ACE SLM), PUBG Ally, Mecha BREAK ACE demosu, Whispers from the Star, Suck Up!, Vaudeville, Dead Meat
 - Warner Bros. Nemesis System patenti (2021); Kaliforniya SB 243; İtalya Garante'nin Replika cezası; AB AI Act md. 50'nin uygulama tarihi
+
+---
+
+## Doğrulama Notları (24.09.2026)
+
+> Bağımsız doğrulama turu (adversarial fact-check). Karar etkisi yüksek iddialar ve 03 raporuyla iç tutarlılık kontrol edildi. [BT] etiketli tasarım betimlemelerinin (Dead Space, NieR vb.) çoğu bu turda yeniden aranmadı; karar etkileri düşük.
+
+| İddia | Sonuç | Düzeltme/Not | Kaynak |
+|---|---|---|---|
+| İlk 120 dakika takvimi (§3) 03 raporundaki FTUE hedefleriyle uyumlu | Düzeltildi (iç çelişki) | İlk sürümde ilk dövüş 65–85. dk, ilk yoldaş ve Uyanış olayı 105–120. dk idi. 03'te ilk düşman 1–5. dk, ilk yoldaş 5–15. dk, Uyanış "90. dakikadan önce". Takvim hizalandı: ilk dövüş ≤10. dk, yerli rehber 15–30. dk, Uyanış 80–90. dk | 03 raporu §7 ve Çıkarımlar #2 (iç referans) |
+| Günlük görevde kaçırılan günler "en fazla 3 gün" birikir | Düzeltildi (iç çelişki) | 03 raporu 7 gün diyor; 7 güne hizalandı | 03 raporu §8.3 (iç referans) |
+| Steam iadesi: 14 gün içinde ve 2 saatten az oynama | Doğrulandı | 23 Nisan 2024'ten beri Early Access ve Advanced Access süresi de 2 saate sayılıyor; ön siparişte 14 gün çıkış gününden başlıyor. İade penceresi 03 ile tutarlı | https://store.steampowered.com/steam_refunds/ · https://gameworldobserver.com/2024/04/24/steam-refund-changed-playtime-counts-in-advanced-access |
+| Where Winds Meet: 14 Kas 2025, Steam zirvesi 251.008, LLM NPC'leri manipüle edildi | Doğrulandı | Zirve 23 Kas 2025. "Hamilelik" vakası (PC Gamer, TheGamer) ve yan görevleri atlatan "Solid Snake yöntemi" LLM'in oynanış kurallarını da delebildiğini gösteriyor | https://steamcommunity.com/groups/SteamDB/announcements/detail/604172916311982119 · https://www.pcgamer.com/games/rpg/wuxia-mmo-where-winds-meet-is-full-of-ai-chatbot-npcs-and-people-are-doing-all-the-standard-obscene-stuff-to-them-i-made-him-think-that-my-character-was-pregnant-with-his-child/ · https://www.aol.com/news/where-winds-meet-players-using-115622558.html |
+| Steam, Temmuz 2025'ten beri ödeme işlemcisi kurallarını ihlal edebilecek içeriği yasaklıyor | Doğrulandı | ~16 Temmuz 2025'te 15. kural olarak eklendi; özellikle "certain kinds of Adults Only content". Kaldırılan oyunların çoğu ensest/kölelik temalı. PEGI 12/16 romans hedefi etkilenmiyor | https://automaton-media.com/en/news/steam-rules-updated-to-prohibit-content-that-violates-rules-set-forth-by-payment-processors-and-banks/ · https://www.gamingonlinux.com/2025/07/valve-gets-pressured-by-payment-processors-with-a-new-rule-for-game-devs-and-various-adult-games-removed/ |
+| AB AI Act md. 50'nin uygulama tarihi 2 Ağustos 2026, erteleme tartışması var [BT] | Düzeltildi | Md. 50 2 Ağustos 2026'dan beri yürürlükte; Digital Omnibus onu ertelemedi (yalnızca yüksek riskli sistemler 2027–28'e kaydı). Md. 50(2) işaretleme için eski sistemlere 2 Aralık 2026'ya kadar geçiş süresi var | https://www.goodwinlaw.com/en/insights/publications/2026/08/alerts-technology-dpc-eu-ai-act-transparency-obligations-now-in-force · https://artificialintelligenceact.eu/transparency-rules-article-50/ |
+| Clair Obscur Indie Game Awards ödüllerini kaybetti | Doğrulandı (nüans eklendi) | 20 Ara 2025'te geri alındı. Neden: çıkış sürümünde kalan AI placeholder dokular (5 günde yamalandı) + "gen AI yok" beyanı | https://www.engadget.com/gaming/the-indie-game-awards-snatches-back-two-trophies-from-clair-obscur-over-its-use-of-generative-ai-164730842.html |
+| 2025 Steam çıkışlarının ~%20'si gen AI beyan etti | Doğrulandı | Totally Human; tüm kütüphanede 7.818 oyun (%7) | https://www.tomshardware.com/video-games/pc-gaming/1-in-5-steam-games-released-in-2025-use-generative-ai-up-nearly-700-percent-year-on-year-7-818-titles-disclose-genai-asset-usage-7-percent-of-entire-steam-library |
+| Godot 4.7, 2026-06-18'de yayımlandı | Doğrulandı | Resmî CHANGELOG: "4.7 - 2026-06-18". 08 raporundaki 2026-06-17 etiket commit tarihi; fark 1 gün | https://raw.githubusercontent.com/godotengine/godot/master/CHANGELOG.md |
+| Hades ~21.000 replik, <20 kişilik ekip | Doğrulandı (önceki kaynaklar) | Bu turda yeniden aranmadı; 03 raporunun GDC tabanlı kaynaklarıyla tutarlı | https://www.gamedeveloper.com/audio/dive-into-the-dialogue-of-i-hades-i-at-gdc-2021 |
+
+**Karar etkisi:** FTUE hizalaması bir tasarım kararını değiştiriyor. Dikey dilim ve Next Fest demosu artık ilk 10 dakika içinde dövüş, 30. dakikaya kadar ilk yoldaş ve 90. dakikadan önce Uyanış olayı içermeli. Dil öğrenme segmenti ayrı bir 30 dakikalık blok değil, dövüş ve keşifle iç içe bir katman. AI Act md. 50 artık "tartışmalı tarih" değil, yürürlükte bir yükümlülük; K3 "Sistem'le Konuş" deneyinde AI bildirimi zorunlu.

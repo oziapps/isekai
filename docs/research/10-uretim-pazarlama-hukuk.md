@@ -19,8 +19,8 @@
 - **Takvim gerçeği [C/Y]:** Ekim 2026 Next Fest'in kaydı 31 Ağustos 2026'da kapandı. Önümüzdeki Next Fest'ler:
   - 22 Şubat – 1 Mart 2027 (kayıt son günü 10 Ocak 2027)
   - 14–21 Haziran 2027 (kayıt son günü 25 Nisan 2027)
-  - Bir oyun Next Fest'e **yalnızca bir kez** katılabilir [1][3][4].
-  - Bizim için gerçekçi pencereler **Ekim 2027** (agresif senaryo) veya **Şubat 2028** (temel senaryo). Bu iki etkinliğin tarihleri henüz ilan edilmedi; yılda üç kez Şubat/Haziran/Ekim örüntüsünden çıkarım yapılıyor [1].
+  - Bir oyun Next Fest'e **yalnızca bir kez** katılabilir [1][3][4]. Prolog, "Bölüm 1" ve başka bir oyunun kısa önizlemeleri Next Fest'e kabul edilmez; EA'ya çıkan oyun "çıkmış" sayılır ve artık katılamaz (düzeltildi 24.09.2026) [1].
+  - Bizim için gerçekçi pencereler **Ekim 2027** (agresif senaryo) veya **Şubat 2028** (temel senaryo). Bu iki etkinliğin tarihleri henüz ilan edilmedi. Valve'ın Haziran 2027 sayfası bir sonraki fest'in **Ekim 2027'de planlandığını** yazıyor; Şubat 2028 ise yılda üç kez Şubat/Haziran/Ekim örüntüsünden çıkarım (düzeltildi 24.09.2026) [1][4].
 - **Kapsam gerçeği:** Tek kişilik hit'lerin neredeyse hepsi ya küçük kapsamlı ve düşük varlık maliyetli (Megabonk, Schedule I, Buckshot Roulette, Vampire Survivors) ya da çok yıllık (Stardew ~4 yıl, Blue Prince ~8 yıl). **Listede tek kişilik 3D anime ARPG yok.** Bu yüzden kapsam hub şehir + instanced "Kapı" zindanları + az ama derin yoldaş ile sınırlanmalı (08 raporuyla uyumlu) [G][R].
 - **Önerilen temel yol haritası (bugünden itibaren):**
   - Dikey kesit ~7. ay (Nisan 2027)
@@ -32,13 +32,13 @@
   - Her fazın sonunda sayısal go/no-go kapısı var (§3).
 - **Steam'in "Popular Upcoming" rafı artık indie için fiilen kapalı [G/O]:** Zukowski'ye göre Valve Haziran 2026'da eşiği ~7 bin istek listesinden **~100 bin**e çıkardı (resmî olmayan tahmin). Yerine gelen **Personal Calendar** kişiselleştirilmiş çalışıyor [21]. Valve'ın kendi belgesi, istek listesinin (bu raf dışında) algoritmik görünürlükte "çoğunlukla" etken olmadığını söylüyor [14][C].
 - **İstek listesi kıyasları (2025–2026) [G/O]:**
-  - Next Fest'te zayıf pazarlanmış oyun ≤1 bin, orta 2–3 bin, üst %95'lik dilim ~15 bin, "süper viral" 30–45 bin istek listesi topluyor [19].
-  - Fest öncesi istek listesi sayısı, fest kazancının en güçlü göstergesi (r≈0,825) [20].
+  - Next Fest'te zayıf pazarlanmış oyun ≤1 bin, orta 2–3 bin, üst %95'lik dilim ~15 bin, "süper viral" 30–45 bin istek listesi topluyor [19]. Düzeltme: Şubat 2026 anketinde (3.500+ demo) **medyan oyun ~800** istek listesi kazandı; üst %5 medyanın 16 katından fazlasını, yani ~13 bin+ aldı. "Orta 2–3 bin" medyanın üstünde, iyi pazarlanmış bir oyun için geçerli (düzeltildi 24.09.2026) [19].
+  - Fest öncesi istek listesi sayısı, fest kazancının en güçlü göstergesi (Spearman r≈0,825; bu değer Şubat 2026 verisinden [19], Mart 2025 makalesinden değil — düzeltildi 24.09.2026).
   - Demo oyuncusundan istek listesine dönüşüm medyanı %19,3 [22].
   - 10 $ üstü oyunlarda istek listesinden ilk hafta satışa dönüşüm medyanı **~0,10×** [75].
-- **Steam'in AI beyan kuralı [C/Y]:** İçerik anketi, oyuncunun tükettiği içeriği (sanat, ses, anlatı, yerelleştirme) iki başlıkta soruyor: **Önceden Üretilmiş** ve **Canlı Üretilen** (canlı üretimde koruma önlemleri de isteniyor). Kod asistanı gibi verimlilik araçları "odak değil" [7]. Buna karşın çekirdek Steam kitlesinin %56'sı Claude Code gibi kodlama araçlarının da beyan edilmesini istiyor [27][G/O].
+- **Steam'in AI beyan kuralı [C/Y]:** İçerik anketi, oyuncunun tükettiği içeriği (sanat, ses, anlatı, yerelleştirme) iki başlıkta soruyor: **Önceden Üretilmiş** ve **Canlı Üretilen** (canlı üretimde koruma önlemleri de isteniyor). Kod asistanı gibi verimlilik araçları "odak değil" [7]. 16 Ocak 2026 form güncellemesini aktaran haberlere göre (Slashdot, KitGuru, TechPowerUp) beyan kapsamına **mağaza sayfası varlıkları, Steam topluluk varlıkları ve pazarlama materyalleri** (fragman, capsule vb.) de giriyor; Steamworks belge sayfası yalnızca "oyunla gelen" içerikten söz ediyor. İhtiyaten pazarlamadaki AI kullanımı da beyan edilmeli (düzeltildi 24.09.2026). Buna karşın çekirdek Steam kitlesinin %56'sı Claude Code gibi kodlama araçlarının da beyan edilmesini istiyor [27][G/O].
 - **Oyuncu tepkisi karışık ama yönetilebilir [G/O]:**
-  - GameDiscoverCo anketi (Temmuz 2026, çekirdek Steam fanları): AI beyanlı oyuna %43 kayıtsız, %31 olumsuz, %8 "almam" diyor. Oyuncuların yalnızca %17'si geliştiricilerin AI kullanımını tam beyan ettiğine inanıyor [27].
+  - GameDiscoverCo anketi (25 Haziran–2 Temmuz 2026, ~4.000 çekirdek Steam fanı): AI beyanlı oyunu almakta %43 sorun görmüyor, ~%26 nötr, %31 olumsuz, %8,1 hiçbir koşulda oynamam diyor (düzeltildi 24.09.2026: "%43 kayıtsız" yerine "sorun görmüyor"). Oyuncuların yalnızca %17'si geliştiricilerin AI kullanımını tam beyan ettiğine inanıyor [27].
   - Haziran 2026 Next Fest demolarının %26,5'i AI beyanı taşıyordu [25].
   - Sonuç: risk "AI kullanmak"tan çok **"gizlemek" ve "AI görünümlü" key art**.
 - **AB Yapay Zekâ Yasası md. 50 [G/O]:**
@@ -167,7 +167,7 @@
 | İlkbahar İndirimi 2027 | 18–25 Mart 2027 | — |
 | **Next Fest Haziran 2027** | 14–21 Haziran 2027 | Kayıt 25 Nisan · fragman çekimi 3 Mayıs · basın önizlemesi için demo 17 Mayıs · zorunlu öğeler 31 Mayıs |
 | Yaz İndirimi 2027 | 24 Haziran – 8 Temmuz 2027 | — |
-| Next Fest Ekim 2027 / Şubat 2028 | **İlan edilmedi.** Örüntü: Ekim ve Şubat | Son üç fest'te kayıt, fest'ten ~6–7 hafta önce kapandı |
+| Next Fest Ekim 2027 / Şubat 2028 | **Tarihler ilan edilmedi.** Valve'ın Haziran 2027 sayfası "bir sonraki edisyon Ekim 2027'de planlanıyor" diyor (düzeltildi 24.09.2026). Örüntü: Ekim ve Şubat | Son üç fest'te kayıt, fest'ten ~6–7 hafta önce kapandı |
 
 **Diğer fuarlar [G/O] [70]:**
 - Tokyo Game Show 2026: 17–21 Eylül 2026. TGS 2027: 16–20 Eylül 2027.
@@ -203,7 +203,7 @@ Notlar:
 | **F2 Dikey kesit** | 10–14 hafta | 20–30 dk nihai kalite, üretim hızı ölçümü, duyuru fragmanı | ≥50 kör test. Tamamlama ≥%70. "İstek listesine eklerim" ≥%40. "AI slop" şikâyeti ≤%10. Hedef donanımda 60 fps | **G2:** Üretim hızı EA kapsamını 12 ayda çıkarmaya yetmiyorsa **kapsam kesilir** (biyom/yoldaş sayısı) |
 | **F3 Duyuru + üretim** | 4–6 ay | Steam sayfası, Discord, kısa video (Shorts/TikTok) devlog ritmi, Steam Playtest, içerik üretimi | İlk 3 ayda 3–5 bin istek listesi (organik ≥30/gün). Discord ≥500. İstek listesi/takipçi oranı izlenir [28] | **G3:** 3 ayda <1.000 istek listesiyse demo öncesi **konumlandırma yenilenir** (capsule, kanca, fragman). Ücretli işler ertelenir |
 | **F4 Demo** | 8–12 hafta | 60–90 dk demo + yayıncı kiti | Demo→istek listesi ≥%15–20 (medyan %19,3 [22]). Medyan demo süresi ≥30 dk. Demo incelemeleri ≥%85 olumlu | **G4:** Fest'e girerken ≥7–10 bin istek listesi. Altındaysa fest bir sonraki pencereye kaydırılır |
-| **F5 Next Fest** | 1 hafta (+6 hafta hazırlık) | Canlı yayın (isteğe bağlı), güncel fragman | Fest'te +5–15 bin istek listesi (15 bin ≈ üst %5 [19]) | **G5 (EA kararı):** Toplam ≥15–20 bin → EA. 7–15 bin → EA yapılır ama gelir beklentisi ve harcama düşürülür. <7 bin → 3–6 ay erteleme ve yeniden pazarlama |
+| **F5 Next Fest** | 1 hafta (+6 hafta hazırlık) | Canlı yayın (isteğe bağlı), güncel fragman | Fest'te +5–15 bin istek listesi (~13 bin+ ≈ üst %5, medyan ~800 [19]; düzeltildi 24.09.2026) | **G5 (EA kararı):** Toplam ≥15–20 bin → EA. 7–15 bin → EA yapılır ama gelir beklentisi ve harcama düşürülür. <7 bin → 3–6 ay erteleme ve yeniden pazarlama |
 | **F6 Early Access** | 9–15 ay | Perde 1, 6–10 haftalık güncelleme ritmi | İlk hafta dönüşümü ≥%10 [75]. İnceleme ≥%80 olumlu. İade ≤%10. Medyan oynama süresi ≥4 saat. Oyuncuların ≥%50'si 2. saate ulaşıyor | **G6 (EA +30 gün):** İnceleme <%70 ise yeni içerik dondurulur, 4 haftalık düzeltme sprinti yapılır |
 | **F7 1.0** | 3–4 ay cila | Tam hikâye, yerelleştirme ve LQA, Destekçi Paketi, OST | Yeniden istek listesi e-postası [13]. İnceleme ≥%85 | **G7:** Konsol ve Asya yayıncısı görüşmesi için 1.0 verileri kullanılır |
 
@@ -215,6 +215,8 @@ Notlar:
 | 0–999 | 322 |
 | 1.000–9.999 | 1.006 |
 | 10.000–99.999 | 5.215 |
+
+  (Doğrulama notu 24.09.2026: Bu kademe medyanları bağımsız olarak doğrulanamadı; ikincil özetlerde 1.000 altı için 462 gibi farklı değerler geçiyor. Güçlü korelasyon (r≈0,825) ve "fest ivmeyi büyütür" sonucu doğrulandı.)
 
 - Steam'e göre inceleme puanı %40'ın üstünde kaldıkça görünürlüğü etkilemiyor [14][C].
 - Ancak ilk 7 günde "Mixed" (%67) inceleme alan oyunlar istek listesini zayıf satışa çeviriyor [75][G].
@@ -312,7 +314,7 @@ Notlar:
 | Fest fragmanına seçilmek için kayıt son gününde herkese açık bir fragman ve güncel varlıklar gerekiyor | [1] |
 | Fest sırasında Playtest açık tutulmamalı: oyuncuları böler | [1] |
 | Fragman: ilk fragman **oynanış** olmalı. Oyuncuyu yakalamak için "10 saniyeden az" zaman var. Mikro fragman ilk videodan otomatik üretiliyor. 1920×1080 çözünürlük | [16] |
-| EA: fiyat artışından sonraki 30 gün içinde indirim yapılamıyor. EA'da kalıcı indirim yasak. Gelecek için somut vaat verilmemeli | [15] |
+| EA: fiyat artışından sonraki 30 gün içinde indirim yapılamıyor; bu **1.0 çıkış indirimini de kapsıyor**, yani EA→1.0 fiyat artışı 1.0'dan en az 30 gün önce yapılmalı (düzeltildi 24.09.2026). EA'da kalıcı indirim yasak. Gelecek için somut vaat verilmemeli | [15] |
 | Reklam tabanlı iş modeli ve blokzincir/NFT Steam'de yasak. Ödeme işlemcisi kurallarını ihlal eden yetişkin içerik de yasak | [10] |
 
 ### 5.2 İstek listesi hedefleri: 2026 gerçeği
@@ -331,7 +333,7 @@ Notlar:
 
 1. **Tek hak:** Çıkıştan hemen önceki son büyük etkinlik olarak planlanmalı [19].
 2. Demo fest'ten **1–3 ay önce** yayında olmalı. "Gölge çıkış" (shadow drop; fest başlarken habersiz demo) veriyle desteklenmiyor [19].
-3. Fest öncesi istek listesi en güçlü gösterge (r≈0,825) [20]. Fest yalnızca var olan ivmeyi büyütüyor.
+3. Fest öncesi istek listesi en güçlü gösterge (r≈0,825; Şubat 2026 verisi) [19]. Fest yalnızca var olan ivmeyi büyütüyor. Demosunu fest'ten aylar önce yayımlayan oyunlar, demoyu fest sırasında açanlara göre medyanda ~2,5 kat istek listesi kazandı (ikincil özet, düzeltildi 24.09.2026).
 4. Haziran 2026'da demo sayısı %66 arttı (4.382). Üst %10'un fest'teki takipçi kazancı %25 düştü [25]. Rekabet artıyor; **net bir "kanca" ve doğru etiketler** şart.
 5. Fest'te günlük geliştirici yayını isteğe bağlı [1]. Asıl kaldıraç yayıncılar ve VTuber'lar (§5.5).
 
@@ -429,7 +431,7 @@ Notlar:
 ### 6.3 Steam AI beyanı (resmî metin, [7][C/Y])
 
 - Anket üç bölümden oluşuyor: genel içerik (bölgesel yaş derecelerini üretir), olgun içerik, **üretken AI içeriği**.
-- Kapsam: "oyunla birlikte gelen ve oyuncunun tükettiği" sanat, ses, anlatı, yerelleştirme. Geliştirme ortamındaki verimlilik araçları "odak değil".
+- Kapsam: "oyunla birlikte gelen ve oyuncunun tükettiği" sanat, ses, anlatı, yerelleştirme. Geliştirme ortamındaki verimlilik araçları "odak değil". 16 Ocak 2026 form güncellemesini aktaran haberlere göre mağaza sayfası, Steam topluluk varlıkları ve pazarlama materyallerindeki AI içeriği de serbest metin alanında anlatılmalı; fragman, capsule veya ekran görüntüsünde AI kullanıldıysa beyana eklenmeli (düzeltildi 24.09.2026).
 - **Önceden Üretilmiş:** Diğer içerikle aynı incelemeden geçer (yasa dışı veya ihlal edici içerik yok; pazarlama ile oyun tutarlı).
 - **Canlı Üretilen:** Buna ek olarak yasa dışı içerik üretimini engelleyen **koruma önlemleri** anlatılmalı. Canlı AI ile "Adult Only" cinsel içerik kabul edilmiyor.
 - Oyun yayınlandıktan sonra anketin bazı alanları ancak Steam Destek üzerinden değiştirilebiliyor.
@@ -472,6 +474,7 @@ Notlar:
   - Başka mağazada IARC ile alınmış USK/IGRS derecesi Steam'e **girilmemeli** [8].
 - **Diğer mağazalar:** Konsol ve mobil dijital mağazalarda IARC anketi geliştiriciye ücretsiz [B/O]. Fiziksel veya perakende sürümde PEGI/ESRB ücretli; yayıncıya bırakılmalı [B/D].
 - **Hedef:** PEGI 12/16, ESRB T. Kumarhane mini oyunu yok (04 raporu).
+- **PEGI Haziran 2026 değişikliği (düzeltildi 24.09.2026):** Yeni başvurularda ücretli rastgele öğe → en az PEGI 16; süreli/adet sınırlı satın alma teklifi → en az PEGI 12; NFT/blokzincir → PEGI 18; engelleme, raporlama veya filtre aracı olmayan sınırsız çevrimiçi iletişim → PEGI 18. İleride co-op ve sohbet eklenirse engelleme/raporlama aracı zorunlu tasarım gereksinimi olmalı; aksi hâlde konsol sürümü PEGI 18 alır.
 
 ### 6.7 EULA ve gizlilik politikası
 
@@ -519,7 +522,8 @@ Notlar:
 - **2026 değişiklikleri (mali müşavirle teyit edilmeli) [69][G/D]:**
   - Genç girişimci kazanç istisnası üst sınırı 400.000 TL
   - Bağ-Kur prim desteği 1 Ocak 2026'dan itibaren kaldırıldı (7566 sayılı Kanun)
-  - Yurt dışına verilen yazılım hizmetlerinde kazanç indirimi %100'e çıktı (gelirin Türkiye'ye getirilmesi şartıyla)
+  - Yurt dışına verilen yazılım hizmetlerinde kazanç indirimi %100'e çıktı (gelirin Türkiye'ye getirilmesi şartıyla). Doğrulandı: 11257 sayılı Cumhurbaşkanı Kararı (Nisan 2026), 1 Ocak 2026'dan başlayan dönemler için %80'den %100'e. Steam oyun satışının "yazılım hizmeti" sayılıp sayılmayacağı belirsiz (24.09.2026)
+  - Genç girişimci 400.000 TL ve Bağ-Kur desteğinin kaldırılması (7566 sayılı Kanun, 1 Ocak 2026'dan sonra işe başlayanlar için) doğrulandı. GVK 18 eser satışı istisnasında 2026 sınırı 5.300.000 TL (24.09.2026)
 - Steam vergi mülakatında W-8BEN ile ABD stopajı %10 (04 raporu).
 
 ---
@@ -564,11 +568,11 @@ Notlar:
 5. **Pazarlama motoru:** Haftada 2–3 kısa klip, aylık devlog, Discord. Sayfa açılınca hedef ilk 3 ayda 3–5 bin, fest öncesinde 7–10 bin, EA'da ≥20 bin istek listesi.
 6. **Mağaza varlıkları:** İlk fragman oynanış, ilk 5 saniye kanca. Capsule ve logo insan eseri. Kısa açıklama EN/JA/ZH. Etiketler: Action RPG, Anime, Roguelite, Dungeon Crawler, Singleplayer, Fantasy. **Oyun içinde karşılığı olmayan etiket kullanılmamalı.**
 7. **Yerelleştirme:** EA'da EN+JA+ZH-Hans metin (insan LQA ile). TR arayüz ve altyazı mümkünse EA'da (yerel PR kaldıracı, maliyeti düşük). KO/PT-BR/ES 1.0'da.
-8. **AI şeffaflık metni:** Steam formu + basın kiti + web SSS'de aynı cümleler. İçinde "Claude Code ile kodlandı; oyuncunun gördüğü X ve Y'de AI kullanıldı, şunlar insan eseri" beyanı olmalı.
+8. **AI şeffaflık metni:** Steam formu + basın kiti + web SSS'de aynı cümleler. İçinde "Claude Code ile kodlandı; oyuncunun gördüğü X ve Y'de AI kullanıldı, şunlar insan eseri" beyanı olmalı. Fragman, mağaza görselleri ve diğer pazarlama materyallerinde AI kullanıldıysa bu da beyana eklenmeli (düzeltildi 24.09.2026).
 9. **Hukuki şablonlar (F0–F2):** Serbest çalışan sözleşmesi (FSEK 52 uyumlu, AI maddeli), besteci sözleşmesi (OST dahil), seslendirme sözleşmesi (klon yasağı), gizlilik politikası ve aydınlatma metni, yayın izni metni (EN/JA). Bir avukata **tek seferlik paket** olarak inceletilmeli.
 10. **Marka:** Sayfa açılmadan TÜRKPATENT'e sınıf 9 ve 41 başvurusu (~12.650 TL). EA'dan önce EUIPO (~900 €) ve USPTO (~700 $).
 11. **Yayıncılar:** Mağaza sayfasında ve sitede EN/JA yayın ve para kazanma serbestliği metni olmalı. OST Content ID'ye kaydedilmemeli. Demo çıkışında 200–500 kişilik türe yakın yayıncı listesine anahtar ve rehber gönderilmeli.
-12. **Plan B (isteğe bağlı):** Pazarlama becerisini ve kitleyi erken test etmek için aynı evrende 2–3 aylık küçük bir 2D "Sistem" mini oyunu çıkarılabilir (ayrı oyun, ayrı Next Fest hakkı). Ana projeyi geciktirme riski yüzünden **yalnızca G3 başarısız olursa** değerlendirilmeli.
+12. **Plan B (isteğe bağlı):** Pazarlama becerisini ve kitleyi erken test etmek için aynı evrende 2–3 aylık küçük bir 2D "Sistem" mini oyunu çıkarılabilir (ayrı oyun, ayrı Next Fest hakkı). Dikkat: Valve prolog, "Bölüm 1" ve başka bir oyunun kısa önizlemelerini Next Fest'e kabul etmiyor; mini oyun ana oyunun önizlemesi değil, kendi başına bir oyun olarak konumlanmalı (düzeltildi 24.09.2026). Ana projeyi geciktirme riski yüzünden **yalnızca G3 başarısız olursa** değerlendirilmeli.
 
 ## Belirsizlikler ve Riskler
 
@@ -673,3 +677,40 @@ Etiketler: [C] bu oturumda okundu · [G] GitHub'daki üçüncü taraf özetten, 
 74. (kullanılmadı)
 75. [G] GameDiscoverCo, "The state of Steam wishlist conversions" (17 Ekim 2025): https://newsletter.gamediscover.co/p/the-state-of-steam-wishlist-conversions (özet: https://github.com/ginzadaddy-png/my-wiki/blob/main/wiki/sources/carless-wishlist-conversions-2025-10.md)
 76. [G] PCGuide, Popular Upcoming için 100 bin istek listesi eşiği: https://www.pcguide.com/news/steams-new-100000-wishlist-rule-means-many-indie-devs-will-have-to-rely-on-a-different-feature-to-be-discovered/
+
+## Doğrulama Notları (24.09.2026)
+
+Bağımsız doğrulama; Steamworks belgeleri `SteamTracking/SteamworksDocumentation` GitHub aynasından (raw.githubusercontent.com) yeniden indirilip okundu, diğerleri WebSearch ile farklı sorgu ve kaynaklardan kontrol edildi. howtomarketagame.com, pcgamer.com, gamedeveloper.com, eur-lex ve turkpatent.gov.tr bu oturumda doğrudan açılamadı; bunlar için arama sonuçları ve ikincil hukuk/sektör özetleri kullanıldı.
+
+| İddia | Sonuç | Düzeltme/Not | Kaynak |
+|---|---|---|---|
+| Next Fest Şubat 2027: 22 Şubat–1 Mart 2027; kayıt 10 Ocak; basın önizlemesi demosu 25 Ocak; zorunlu öğeler 8 Şubat; basın önizlemesi 11 Şubat | Doğrulandı | — | https://partner.steamgames.com/doc/marketing/upcoming_events/nextfest/feb_2027 |
+| Next Fest Haziran 2027: 14–21 Haziran 2027; kayıt 25 Nisan; zorunlu öğeler 31 Mayıs | Doğrulandı | Basın önizlemesi 3 Haziran. Sayfa, bir sonraki edisyonun Ekim 2027'de planlandığını yazıyor | https://partner.steamgames.com/doc/marketing/upcoming_events/nextfest/june_2027 |
+| Next Fest Ekim 2026: 19–26 Ekim; kayıt 31 Ağustos 2026'da kapandı | Doğrulandı | — | https://partner.steamgames.com/doc/marketing/upcoming_events/nextfest/2026october |
+| Bir oyun yalnızca bir Next Fest'e katılabilir; yılda 3 kez (Şubat/Haziran/Ekim) | Doğrulandı + ek | Prolog, "Bölüm 1" ve kısa önizlemeler kabul edilmez; EA çıkışı "çıkış" sayılır. Plan B mini oyun bağımsız oyun olmalı | https://partner.steamgames.com/doc/marketing/upcoming_events/nextfest |
+| Steam Direct 100 $, 1.000 $ AGR'de mahsup, iade yok; 30 gün bekleme | Doğrulandı | — | https://partner.steamgames.com/doc/gettingstarted/appfee ; https://partner.steamgames.com/doc/gettingstarted/onboarding |
+| Coming Soon ≥2 hafta; inceleme 3–5 iş günü, ≥7 iş günü önce gönder | Doğrulandı | — | https://partner.steamgames.com/doc/store/coming_soon ; https://partner.steamgames.com/doc/store/review_process |
+| İstek listesi e-postası ≥%20 ve >8 saat indirimde; demo bildirimi bir kez | Doğrulandı | — | https://partner.steamgames.com/doc/marketing/wishlist |
+| Görünürlük: istek listesi "çoğunlukla" etken değil; trafik/dönüşüm etken değil; inceleme ≥%40 iken etken değil | Doğrulandı | — | https://partner.steamgames.com/doc/marketing/visibility |
+| EA: fiyat artışından sonra 30 gün indirim yok | Doğrulandı + ek | Kural 1.0 çıkış indirimini de kapsıyor; istisnası yok | https://partner.steamgames.com/doc/marketing/discounts ; https://partner.steamgames.com/doc/store/pricing |
+| Steam indirim takvimi (Sonbahar 1–8 Ekim 2026, Kış 17 Aralık–4 Ocak, İlkbahar 18–25 Mart 2027, Yaz 24 Haziran–8 Temmuz 2027) | Doğrulandı | — | https://partner.steamgames.com/doc/marketing/upcoming_events |
+| Steam kullanıcılarının %60'tan fazlası İngilizce dışı dil kullanıyor | Doğrulandı | — | https://partner.steamgames.com/doc/store/localization |
+| Steam AI beyanı: oyunla gelen ve oyuncunun tükettiği içerik; verimlilik araçları odak değil; Önceden Üretilmiş / Canlı Üretilen; canlı AI ile Adult Only cinsel içerik yok | Doğrulandı + ek | 16 Ocak 2026 güncellemesini aktaran haberlere göre mağaza sayfası, topluluk varlıkları ve pazarlama materyalleri de kapsamda; pazarlamadaki AI da beyan edilmeli | https://partner.steamgames.com/doc/gettingstarted/contentsurvey ; https://games.slashdot.org/story/26/01/19/1735231/valve-has-significantly-rewritten-steams-rules-for-how-developers-must-disclose-ai-use |
+| Popular Upcoming eşiği Haziran 2026'da ~7 binden ~100 bine çıktı (Zukowski) | Doğrulandı (tahmin) | Resmî değil; başka kaynaklar ~80 bin–120 bin diyor | https://howtomarketagame.com/2026/06/25/how-the-steam-personal-calendar-affects-your-launch/ ; https://www.pcguide.com/news/steams-new-100000-wishlist-rule-means-many-indie-devs-will-have-to-rely-on-a-different-feature-to-be-discovered/ |
+| Next Fest kademeleri (Şubat 2026): zayıf ≤1 bin, orta 2–3 bin, üst %5 ~15 bin | **Düzeltildi** | Medyan ~800; üst %5 medyanın 16 katından fazla (~13 bin+) | https://howtomarketagame.com/2026/04/13/making-sense-of-the-february-2026-steam-next-fest/ |
+| Fest öncesi istek listesi en güçlü gösterge (r≈0,825) | Doğrulandı, kaynak düzeltildi | Değer Şubat 2026 verisinden [19]; kademe medyanları (322/1.006/5.215) doğrulanamadı | https://howtomarketagame.com/2026/04/13/making-sense-of-the-february-2026-steam-next-fest/ |
+| Demo oyuncusu → istek listesi medyanı %19,3 | Doğrulandı (yaklaşık) | "Medyan oyunda her 5 demo oyuncusundan ~1'i" | https://howtomarketagame.com/2026/06/30/nobody-plays-demos-and-that-is-ok/ |
+| İstek listesi → ilk hafta satış: 25 bin+ istek listeli oyunlarda 0,15×, 10 $ üstünde 0,10×; 10–20 kat fark | Doğrulandı | Örneklem: Eylül 2024–Eylül 2025 çıkışları | https://newsletter.gamediscover.co/p/the-state-of-steam-wishlist-conversions |
+| Haziran 2026 Next Fest: 4.382 demo (+%66), %26,5 AI beyanı, Godot %9,2 → %12,6 | Doğrulandı | Tüm etkinlikte (~8.700 giriş) AI beyan oranı ~%20 | https://newsletter.gamediscover.co/p/who-won-june-2026s-steam-next-fest |
+| GameDiscoverCo AI anketi: %43 kayıtsız, %31 olumsuz, %8 reddediyor | **Düzeltildi** (ifade) | %43 "sorun görmüyor", ~%26 nötr, %31 olumsuz, %8,1 hiçbir koşulda oynamaz | https://newsletter.gamediscover.co/p/what-do-steam-fans-really-think-about ; https://www.gamesradar.com/games/survey-finds-only-31-percent-of-steam-users-have-a-problem-with-ai-in-games-with-43-percent-totally-fine-with-it/ |
+| AB AI Act md. 50, 2 Ağustos 2026'dan beri uygulanıyor; Digital Omnibus (2026/1744) 24 Temmuz'da yayımlandı, 27 Temmuz 2026'da yürürlüğe girdi; Ek III → 2 Aralık 2027, Ek I → 2 Ağustos 2028; md. 50(2) için eski sistemlere 2 Aralık 2026 | Doğrulandı | md. 50(2) geçiş süresi yalnızca 2 Ağustos 2026'dan önce piyasaya sürülen sistemler için | https://www.hunton.com/privacy-and-cybersecurity-law-blog/eu-digital-omnibus-on-ai-enters-into-force ; https://www.whitecase.com/insight-alert/eu-ai-omnibus-enters-force-amending-ai-act |
+| ABD Telif Ofisi Part 2 (29 Ocak 2025): yalnızca prompt yazarlık için yetmez | Doğrulandı | — | https://www.copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-2-Copyrightability-Report.pdf ; https://ipwatchdog.com/2025/01/29/part-two-copyright-office-ai-report-says-creative-prompting-doesnt-constitute-authorship/ |
+| Yüksek Mahkeme 2 Mart 2026'da Thaler v. Perlmutter (No. 25-449) temyiz başvurusunu reddetti | Doğrulandı | D.C. Circuit'in insan yazarlık kararı yürürlükte kaldı | https://www.scotusblog.com/cases/thaler-v-perlmutter/ ; https://www.mayerbrown.com/en/insights/publications/2026/03/supreme-court-denies-review-in-ai-authorship-case |
+| TÜRKPATENT 2026: başvuru 2.820 TL, 2. sınıf +2.820 TL, 3.+ sınıf +3.150 TL, tescil 7.010 TL (9+41 ≈ 12.650 TL) | Doğrulandı | Resmî ücretler; vekil ücreti ve KDV hariç | https://www.turkpatent.gov.tr/marka-islem-ucretleri |
+| EUIPO: 850 € (1 sınıf) + 50 € (2.) + 150 € (3.+) | Doğrulandı | — | https://www.euipo.europa.eu/en/trade-marks/before-applying/fees-payable-direct-to-the-euipo |
+| USPTO: sınıf başına 350 $ (18 Ocak 2025'ten beri) | Doğrulandı | ID Manual dışı serbest tanım için sınıf başına +200 $, eksik bilgi için +100 $ | https://www.uspto.gov/trademarks/fees-payment-information |
+| Megabonk 2 haftada 1 milyon+; Schedule I 459 bin zirve CCU (tek geliştirici rekoru) | Doğrulandı | Schedule I zirvesi 459.075 (6 Nisan 2025) | https://www.gamedeveloper.com/business/indie-hit-megabonk-moves-over-a-million-copies-in-two-weeks ; https://steamdb.info/app/3164500/charts/ |
+| 2026 vergi: genç girişimci 400 bin TL; Bağ-Kur desteği kaldırıldı (7566); yazılım ihracatı indirimi %100 | Doğrulandı | %100 oran 11257 sayılı CK ile (Nisan 2026) 1 Ocak 2026'dan itibaren; Steam gelirine uygulanabilirliği mali müşavirle teyit edilmeli | https://www.alomaliye.com/2026/04/20/yurt-disi-mukimlere-verilen-hizmetlerde-kazanc-indirimi/ ; https://vergiselboyut.com/2026-genc-girisimci-vergi-tesviki/ |
+| PEGI (rapor §6.6'da yoktu) | **Eklendi** | Haziran 2026'dan itibaren ücretli rastgele öğe → PEGI 16+, süreli teklif → PEGI 12+, sınırsız iletişim → PEGI 18 | https://pegi.info/news/pegi-expands-age-rating-criteria-interactive-risk-categories |
+
+**Karar etkisi:** Takvim (Next Fest Şubat 2028, EA sonrası), bütçe ve marka önerileri geçerliliğini koruyor. Değişen uygulama noktaları: (1) AI beyanı pazarlama materyallerini de kapsamalı; (2) EA→1.0 fiyat artışı 1.0'dan en az 30 gün önce yapılmalı; (3) Plan B mini oyun ana oyunun prologu/önizlemesi gibi konumlanırsa Next Fest'e giremez; (4) Next Fest'te "medyan" beklenti ~800 istek listesi, bu yüzden G4/G5 kapıları iddialı hedef olarak okunmalı.

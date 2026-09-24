@@ -39,10 +39,10 @@
 | Mobil günlük oyun süresi | Medyan 22 dk | 2024 | [1][2] | O |
 | Mobil oturum uzunluğu | Medyan 5–6 dk. Üst %25: 8–9 dk | 2024 | [1][2] | O |
 | Tür farkı (mobil) | RPG, strateji ve simülasyon yavaş başlayıp uzun kuyruk yapıyor. Aksiyonda D30 ~%2,1, hiper-casual'da ~%1,4 | 2025 | [6] | D |
-| PC D1 | Üst %25: %15–16. Üst %1: %50–60 | 2025 | [3][4][5] | O |
+| PC D1 | Üst %25: %15–16. Üst %1: %50–60. Medyan (P50) ~%7, alt %25 ~%3 (eklendi 24.09.2026). Örneklem: en az 100 MAU'lu 3.582 PC oyunu | 2025 | [3][4][5] | O |
 | PC D7 | Medyan ~%1,7–1,8 (arama özetinde mobil ve PC verisi karışık, dikkatli kullanılmalı) | 2025 | [4] | D |
 | PC günlük oyun süresi | Medyan 32–33 dk. Üst %25: 70 dk. Üst %10: 120 dk | 2025 | [3][4] | O |
-| Steam iade kuralı | Satın almadan sonra 14 gün içinde **ve** 2 saatten az oynama | Güncel politika | [7] | Y |
+| Steam iade kuralı | Satın almadan sonra 14 gün içinde **ve** 2 saatten az oynama. 23 Nisan 2024'ten beri Early Access ve Advanced Access'te oynanan süre de 2 saate sayılıyor (eklendi 24.09.2026) | Güncel politika | [7] | Y |
 
 **Yorum:**
 - GameAnalytics verisi SDK'yı entegre eden projelerden geliyor ve bunların çoğu küçük ve orta ölçekli. Premium Steam oyunlarını tam temsil etmeyebilir. Bu bizim değerlendirmemiz, kaynakta yazmıyor.
@@ -60,9 +60,9 @@
 
 | Oyun | Veri | Ders | Kaynak | Güven |
 |---|---|---|---|---|
-| Hades II | 1.0 çıkışı 25.09.2025. Steam zirvesi 112.947 eşzamanlı oyuncu. İlk oyunun zirvesi 54.240. Üçüncü taraf tahmini: Steam'de ~5,2 milyon kopya ve ~93,5 milyon $ | Erken erişim, anlatı ödülü ve meta ilerleme birlikte çok güçlü bir satış motoru | [22] | O (satış: D) |
+| Hades II | 1.0 çıkışı 25.09.2025. Steam zirvesi 112.947 eşzamanlı oyuncu (28.09.2025). İlk oyunun zirvesi 54.240. Üçüncü taraf tahmini: Steam'de ~5,2 milyon kopya ve ~93,5 milyon $ (Raijin; iki değer birbiriyle tutarsız, resmî rakam yok. Doğrulanmış alt sınır: 1.0 öncesi 2 milyon+; düzeltildi 24.09.2026) | Erken erişim, anlatı ödülü ve meta ilerleme birlikte çok güçlü bir satış motoru | [22] | O (satış: D) |
 | Balatro | Çıkış 20.02.2024. 5 milyon satış açıklaması 21.01.2025 | Tek mekaniğin derinliği ve kısa koşular | [23] | Y |
-| Monster Hunter Wilds | Eşzamanlı oyuncu 1,38 milyondan Haziran 2025'te zirvenin ~%1'ine indi. Forbes başlığına göre son incelemelerin %82'si olumsuz | Endgame ve performans çıkışta hazır olmalı | [25] | O |
+| Monster Hunter Wilds | Eşzamanlı oyuncu 1,38 milyondan (1.384.608, 1 Mart 2025) Haziran 2025'te zirvenin ~%1–2'sine indi. Satışlar da aynı eğriyi izledi: ilk ayda 10 milyon, sonraki 12 ayda (FY2026) yalnızca 1,32 milyon (eklendi 24.09.2026). Forbes başlığına göre son incelemelerin %82'si olumsuz | Endgame ve performans çıkışta hazır olmalı | [25] | O |
 | Path of Exile 2 | Erken erişim zirvesi 578.569 (08.12.2024). 0.4 ligi ~240 bin. Lig başlangıcından sonraki aylarda %60–70 düşüş | Sezon dalgası doğal, planlanmalı | [27] | O |
 | Diablo IV | Yılda 2 sezondan (2023) 5 sezona (2025). Sezon süreleri 48–105 gün arasında değişti. Liderlik tabloları 2026 yol haritasında | Daha sık sezon = daha fazla içerik yükü ve yorgunluk riski | [26] | D |
 | Last Epoch | Season 2 (Nisan 2025) güçlü bir geri dönüş yarattı | Her sezonda anlamlı bir yenilik geri getiriyor | [28] | O |
@@ -179,6 +179,8 @@ SEZON (8–12 hf) ── "Anime Sezonu N": yeni ark, yeni Gate tipi, sezon mekan
 ## 7. İlk Deneyim (FTUE): İlk 5 / 15 / 60 / 120 Dakika
 
 Steam iade kuralı (<2 saat, 14 gün) [7] nedeniyle **ilk 2 saat ürünün kendisidir**. Aşağıdaki süreler bizim hedeflerimiz.
+
+> **Hizalama notu (24.09.2026):** 09 raporunun ilk sürümündeki "ilk 120 dakika" senaryosu bu tabloyla çelişiyordu (ilk dövüş 65. dk, Uyanış 105–120. dk). 09 raporu §3 bu tabloya göre düzeltildi: ilk dövüş ≤10. dk, ilk yoldaş (yerli rehber) 15–30. dk, Lonca kaydı/F-rank 30–45. dk, ilk boss ve ölüm 45–65. dk, Uyanış 80–90. dk. İki rapor arasındaki kalan fark (bu tablo F-rank damgasını 5–15. dakikaya koyuyor, 09 ise dil ve kayıt sahneleri nedeniyle 30–45. dakikaya) dikey dilim testinde ölçülerek kapatılmalı. Değişmez koşullar: ilk dövüş ilk 10 dakikada, Uyanış 90. dakikadan önce.
 
 | Zaman | Olması gereken | Neden |
 |---|---|---|
@@ -311,7 +313,7 @@ Steam iade kuralı (<2 saat, 14 gün) [7] nedeniyle **ilk 2 saat ürünün kendi
 - **Co-op'un retention'a etkisi** için güvenilir, güncel bir sayı bulunamadı. Aynı şekilde "isteğe bağlı günlükler retention'ı nasıl etkiler" sorusunun da sayısal kanıtı yok. Bunlar bizim testlerimizle ölçülmeli.
 - **Diablo IV sezon verileri** ikincil kaynaktan (**[D]**) [26]. Last Epoch'un 2025–2026 sayıları arama özetlerinde çelişkili olduğu için bilinçli olarak kullanılmadı.
 - **Hades II satış sayısı** üçüncü taraf bir tahmin (Raijin), resmî değil [22].
-- **Hukuk hızla değişiyor.** AB Digital Fairness Act önerisi 2026'nın ikinci yarısında bekleniyor, kabulü muhtemelen 2027'den önce değil [18]. Brezilya'daki 9 Haziran 2026 loot box kararı (toplam ~333 milyon BRL) [19] temyize gidebilir. Türkiye'de oyun içi satın alma ve loot box düzenlemesi bu raporda **araştırılamadı**. Monetizasyon raporunda ele alınmalı.
+- **Hukuk hızla değişiyor.** AB Digital Fairness Act önerisi 2026'nın ikinci yarısında bekleniyor, kabulü muhtemelen 2027'den önce değil [18]. Brezilya'daki 9 Haziran 2026 loot box kararı (toplam ~333 milyon BRL) [19] temyize gidebilir. Brezilya yasasındaki tanım ödemeyi şart koşuyor ama yasak maddesi "sunmak" (offered) fiilini kullanıyor; **ücretsiz, oynayarak kazanılan rastgele ödüllerin** kapsama girip girmediği hukuken henüz net değil. "Rastgelelik yalnızca oyunda" kuralımız doğru yön, ama Brezilya'da yaşa göre derecelendirme ve hukuki görüş gerekli (eklendi 24.09.2026). Türkiye'de oyun içi satın alma ve loot box düzenlemesi bu raporda **araştırılamadı**. Monetizasyon raporunda ele alınmalı.
 - **Tek kişilik geliştirici riski:** 22 mekaniğin hepsi çıkışa sığmaz. Önceliklendirme şöyle olmalı:
   - **Çıkış (MVP):** 1–6, 9, 12, 13, 18
   - **1. sezon:** 11, 14, 15
@@ -355,3 +357,22 @@ Steam iade kuralı (<2 saat, 14 gün) [7] nedeniyle **ilk 2 saat ürünün kendi
 30. https://www.gamingonlinux.com/2025/01/stardew-valley-hits-over-41-million-sales-with-millions-sold-during-2024/
 31. https://space4games.com/en/games-en/hades-2-playtime-how-many-hours-youll-spend-in-the-dark-roguelike/
 32. İç referanslar: `docs/research/01-isekai-anime-analizi.md` (P1–P10 sütunları, mekanik çeviri tablosu) ve `docs/research/02-pazar-ve-rakip-analizi.md` (ARISE ve Blue Protocol tepkileri, konumlandırma)
+
+---
+
+## Doğrulama Notları (24.09.2026)
+
+> Bağımsız doğrulama turu (adversarial fact-check). Karar etkisi yüksek kıyas verileri ve 09 raporuyla iç tutarlılık kontrol edildi. Akademik kaynaklar (SDT, goal-gradient, Zeigarnik meta-analizi, Spicer vd.) bu turda yeniden aranmadı.
+
+| İddia | Sonuç | Düzeltme/Not | Kaynak |
+|---|---|---|---|
+| GameAnalytics 2026: PC medyan günlük süre 32–33 dk, üst %25 70 dk, üst %10 120 dk; PC üst %25 D1 %15–16, üst %1 %50–60 | Doğrulandı | Ek: PC medyan D1 ~%7, alt %25 ~%3. Örneklem: en az 100 MAU'lu 3.582 PC oyunu ve 16 binden fazla mobil oyun. Küçük oyun ağırlıklı; premium Steam hitlerini temsil etmeyebilir | https://gamedevreports.substack.com/p/gameanalytics-mobile-and-pc-game · https://www.gameanalytics.com/reports/2026-mobile-pc-gaming-benchmarks |
+| Steam iadesi: 14 gün içinde ve <2 saat | Doğrulandı | 23 Nisan 2024'ten beri Early Access ve Advanced Access süresi de 2 saate sayılıyor. Early Access planlanıyorsa ilk 2 saat kuralı EA sürümü için de geçerli | https://store.steampowered.com/steam_refunds/ · https://gameworldobserver.com/2024/04/24/steam-refund-changed-playtime-counts-in-advanced-access |
+| Hades II 1.0 (25 Eyl 2025) zirvesi 112.947, Hades I zirvesi 54.240 | Doğrulandı | Zirve 28 Eyl 2025 | https://store.steampowered.com/news/group/4777282/view/4169846932066328202 · https://www.gamespot.com/articles/hades-2-passes-110000-concurrent-players-on-steam-doubling-all-time-peak-for-original/1100-6535081/ |
+| Hades II ~5,2 milyon kopya, ~93,5 milyon $ | Doğrulanamadı (yalnızca tahmin) | Raijin tahmini, resmî değil, iki değer birbiriyle tutarsız. Doğrulanmış alt sınır: 1.0 öncesi Steam'de 2 milyon+ | https://wnhub.io/news/analytics/item-48907 |
+| MH Wilds: 1,38 milyon zirveden Haziran 2025'te ~%1'e düşüş | Doğrulandı | Zirve 1.384.608 (1 Mar 2025). Haziran 2025'te ~%98 kayıp. Satış: 11,4 milyon toplam, FY2026'da yalnızca 1,32 milyon | https://www.forbes.com/sites/paultassi/2025/06/21/monster-hunter-wilds-collapses-with-1-of-launch-players-82-negative-reviews/ · https://gamerant.com/monster-hunter-wilds-player-count-decline-steam-users-report/ · https://www.pushsquare.com/news/2026/05/monster-hunter-wilds-sales-really-have-fallen-off-a-cliff |
+| Brezilya Lei 15.211/2025, 17 Mar 2026'dan beri reşit olmayanlara ücretli loot box yasak | Doğrulandı (nüans eklendi) | Yasak maddesi "sunmak" fiilini kullanıyor; ücretsiz rastgele mekaniklerin kapsamı hukuken net değil. 9 Haziran 2026 kararı (~333 milyon BRL) bu turda yeniden doğrulanmadı | https://factotumcom.substack.com/p/brazil-digital-eca-bans-loot-boxes · https://www.pcgamer.com/gaming-industry/brazils-president-has-signed-a-ban-on-selling-loot-boxes-to-minors-as-part-of-a-larger-online-child-safety-law/ |
+| FTUE takvimi (§7) 09 raporuyla tutarlı | Düzeltildi (iç çelişki) | 09'un ilk sürümünde ilk dövüş 65. dk, Uyanış 105–120. dk idi. 09 §3 bu raporun hedeflerine göre hizalandı (ilk dövüş ≤10. dk, Uyanış ≤90. dk). F-rank sahnesinin dakikası (5–15 ↔ 30–45) dikey dilim testinde belirlenecek | 09 raporu §3 (iç referans) |
+| Günlük görevde kaçırılan günler en fazla 7 gün birikir (§8.3) | Doğrulandı (iç tutarlılık) | 09 raporundaki "3 gün" bu rapora göre 7 güne düzeltildi | 09 raporu §3.5 (iç referans) |
+
+**Karar etkisi:** Oturum, bölüm ve sezon ritmi önerileri değişmiyor. FTUE'de "ilk dövüş ilk 10 dakikada, Uyanış 90. dakikadan önce" artık iki raporun ortak, değişmez koşulu. Brezilya notu, oynayarak kazanılan rastgele ödüller için de yaşa göre derecelendirme ve hukuki görüş gerektiriyor.
